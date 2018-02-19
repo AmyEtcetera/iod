@@ -1,0 +1,137 @@
+// MAKE CLEAR SECTIONS AND THEN FOR SECTIONS THAT BECOME LARGE, MAKE A SEPARATE SHEET.
+// STYLES FOR THE NAV MAY BE A GOOD CANDIDATE FOR A SEPARATE SHEET,
+// ALSO TYPOGRAPHY, LINKS, AND FORMS.
+
+/*XXXXXXXXXXXX       VARIABLES         XXXXXXXXXXXXX*/
+$white-white: #fff;
+$link-blue: #2a659a;
+
+@mixin testborder($width, $color, $padding) {
+  border-width: $width;
+  border-style: solid;
+  border-color: $color;
+  padding: $padding;
+}
+
+body {font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;}
+
+.testborderone {
+  @include testborder(6px, #333, 2em);
+}
+
+// maybe actually use some of these
+.narrow-page-title {
+  font-family: "Roboto Condensed", Arial, sans-serif;
+  font-weight: 400;
+}
+.header-font-size {
+  font-size: 2.5rem;
+}
+.header-line-ht {
+  line-height: 2.2rem;
+}
+
+
+// highlight flex grid items, delete at some point
+.demo {
+  background: #1779ba;
+}
+
+.above-all{
+  z-index: 1;
+}
+
+.menu .active > a {
+    background: $dark-gray;
+    border-radius:2px;
+}
+.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a::after {
+    border-color: $medium-gray transparent transparent;
+}
+.accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a::after {
+    border-color: $medium-gray transparent transparent;
+}
+
+.vertical.first-sub.submenu.is-accordion-submenu{
+  //margin-left:1rem;
+}
+.footer-links{
+  font-size: 88%;
+}
+.footer-text{
+  font-size: 88%;
+}
+.smaller-text-60{
+  font-size: 60%;
+}
+.smaller-text-90{
+   @include breakpoint(medium) {font-size: 90%;}
+}
+.logo-padding{
+  padding-bottom:20px;
+  padding-top: 10px;
+}
+
+// Semantic, but right-sized...
+aside h3 {
+  font-size: 1.25rem;
+}
+
+// Too much space between breadcrumbs and horiz rule that follows...
+.breadcrumbs {margin: 0;}
+
+.l-r-padding-half {padding-left:0.5rem;padding-right:0.5rem;}
+.r-padding-half {padding-right:0.5rem;}
+
+// Make it light
+.top-bar {
+  border-top:4px solid #556d86;
+  box-shadow: 0 4px 4px -3px #ccc;
+  background-color: $white-white;
+  padding:0;
+}
+
+// The light color doesn't cascade from .top-bar, so...
+.top-bar ul {
+  background-color: $white-white;
+}
+
+@media (max-width: 639px) {
+  .top-bar li ul {
+    margin-left: 1.6rem;
+  }
+}
+
+.title-bar {
+  background-color: #415366;
+}
+.title-bar-title {
+  padding-left: 5px;
+  text-transform: capitalize;
+}
+.top-bar a {color:#666;}
+// need vert divider, note if empty first li is removed another class will be needed for border-left
+.top-bar li {border-right: 1px solid #ddd;}
+
+.hero {
+  background-color: #cccccc;
+  background-image: url("http://via.placeholder.com/1200x400/c0c0c0");
+  padding: 50px 0.9375rem 50px 0.9375rem;
+  .deck {max-width: 70%;}
+  .transparent-bg {background-color: rgba(255, 255, 255, 0.2);padding:10px;}
+}
+
+// Example of using a mixin to customize
+.menu-icon {
+  @include hamburger($white-white, $light-gray, 24px, 20px, 2px, 3);
+}
+
+.hr-slim{
+	margin:0;
+}
+.toc {
+  font-size: 0.9rem;
+  h4 {
+    font-size: 1rem;
+  }
+}

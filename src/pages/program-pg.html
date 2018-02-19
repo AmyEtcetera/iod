@@ -1,0 +1,124 @@
+---
+layout : default
+head-title: Program or page | larger category | Institute on Disabilities at Temple University College of Education
+meta-description: Anything. It affects search results
+category: Technology
+subcategory: PIAT
+display-title: Page main title - It could be very very long
+description: description to accompany display title
+---
+<!-- The grid container covers the breadcrumbs at small size. Does it want a margin-top? -->
+<div class="grid-container grid-container-padded">
+<br><!-- breaks such as this should be accounted for in CSS and removed -->
+<div class="grid-x grid-padding-x">
+<div class="cell small-12">
+  <nav aria-label="You are here:" role="navigation">
+    <ul class="breadcrumbs">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Programs</a></li>
+      <li><a href="#">Program</a></li>
+      <li><span class="show-for-sr">Current page: </span> Page</li>
+    </ul>
+  </nav>
+</div>
+</div>
+<hr>
+<main class="grid-x grid-padding-x" role="main">
+<div class="cell small-12" id="">
+  <h2 class="narrow-page-title">h2 {{display-title}}</h2><br>
+</div>
+	<div class="cell small-12 medium-8 large-9" id="">
+		<article class="">
+
+      <div class="toc">
+      <h4><a data-toggle="table-of-contents"> <i class="fa fa-angle-up"></i> h4 Table Of Contents</a></h4>
+        <nav role="navigation" aria-label="table of contents" id="table-of-contents" data-toggler data-animate="fade-in fade-out">
+          <ul class="menu vertical">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Requirements</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Application</a></li>
+            <li><a href="#">Resources</a></li>
+          </ul>
+        </nav>
+        </div>
+      <hr>
+      {{#ifpage 'program-pg-01'}}
+        <p><strong>This paragraph provided by the ifpage helper. Would work better in a partial?</strong></p>
+      {{/ifpage}}
+	  	<h3><i class="fa fa-check-circle" aria-hidden="true"></i> h3 Introduction to a Program</h3>
+			<p class="lead">Lead paragraph. 12345. Text is larger.</p>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ratione consequuntur animi minima placeat, velit tempora sit eveniet accusantium magnam corporis ab, amet! Quam, sint, sit. Vitae autem, consequatur dolore!</p>
+			<h3>h3 Program Requirements</h3>
+
+      <p class="callout alert"  data-closable><button class="close-button" data-close>&times;</button>** Applicants Please Note: This is an alert callout and you may dismiss it after reading. Thank you.</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ratione consequuntur animi minima placeat, velit tempora sit eveniet accusantium magnam corporis ab, amet! Quam, sint, sit. Vitae autem, consequatur dolore!</p>
+      <section>
+      <h4>h4 Applications</h4>
+      <ul>
+        <li>list item</li>
+        <li>list item</li>
+        <li>list item</li>
+      </ul>
+      </section>
+      <h4>h4 Income Table</h4>
+      <table>
+        <legend>legend</legend>
+        <tr>
+          <td>Size of Family Unit</td>
+          <td>Gross Income</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>$24,120</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>$24,120</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>$24,120</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>$24,120</td>
+        </tr>
+      </table><br>
+
+      <h3 class="subheader">h3 subheader</h3>
+      <p>etc</p>
+		</article> <!-- end of article -->
+	</div><!-- end of larger body div -->
+	<div class="cell small-12 medium-4 large-3" id="">
+		<aside class="callout" role="complementary">
+		<h3>h3 For more information, contact</h3>
+    <!-- mark up for microformat - schema.org -->
+    <p>Ms. Manager<br>
+    Program Manager<br>
+    Voice: 800-204-7428<br>
+    TTY: 866-268-0579<br>
+    Voice: 215-204-5966<br>
+    FAX: 215-204-6336<br>
+    Email: <a href="mailto:">TDDP@temple.edu</a></p>
+    <p>Program<br>
+    1755 N. 13th Street
+    Student Center, Room 411S
+    Philadelphia, PA 19122</p>
+		</aside>
+    <h4>h4 Other Page Templates</h4>
+    <ul>
+     <li>Unique home page</li>
+     <li>List page</li>
+     <li>Grid presentation: Cards or calendar</li>
+     <li>Standard Program page</li>
+     <li>Full page table (publications or staff)</li>
+     <li>Standard news page</li>
+     <li>photo gallery</li>
+   </ul>
+	</div>
+</main>
+
+<hr><br>
+</div> <!-- end grid container, grid container padded -->
