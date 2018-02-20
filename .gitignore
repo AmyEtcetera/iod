@@ -6,5 +6,50 @@ dist
 *.swp
 *.bak
 *.zip
+*.log
+
+# GRAPHICS
+*.psd
+*.ai
+*.jpg
+*.gif
+*.svg
+*.ico
+
+# DOCS
 *.txt
+*.pdf
+*.doc
+*.docx
+
+# VIDEO
+*.wmv
+*.mpg
+*.mpeg
+*.mp4
+*.mov
+*.flv
+*.avi
+*.ogv
+*.ogg
+*.webm
+# AUDIO
+*.wav
+*.mp3
+*.wma
+# FONTS
+*.eot
+*.ttf
+*.woff
+
 */assets/img/*
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
