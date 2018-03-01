@@ -1,6 +1,6 @@
-{{#each staff-list.staffArray}}
-<div><strong>Name and Title:</strong> {{firstname}} {{lastname}}, {{title}}<br /><strong>Bio:</strong> {{bio}}</div>
+<dl>{{#each staff-list.staffArray}}
+<dt id="{{link}}"><strong>{{firstname}} {{lastname}}, {{title}}</strong></dt><dd>{{bio}}</dd>
 <hr>
 {{/each}}
-<hr>
-<p>Call one value of json file: {{staff-list.staffArray.0.title}}</p>
+</dl>
+<!--<p>Call one value of json file: {{staff-list.staffArray.0.title}}</p>-->
