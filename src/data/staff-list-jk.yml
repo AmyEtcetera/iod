@@ -1,0 +1,73 @@
+staffArray:
+  -
+    firstname : "John"
+    lastname : "Badger"
+    title : "Coordinator of Student Supports"
+    email : "jack.badger@temple.edu"
+    phone : "215-204-3031"
+    bio : Mr. Badger is the Coordinator of Student Supports for the Leadership & Career Studies program, overseeing its mentoring and internship components while ensuring that each student is provided with the necessary supports to fulfill their academic, career-oriented, and social goals. Since graduating from Temple University in 2010 with a BA in Psychology and prior to joining the Institute in 2013, Jack worked as an Employment Specialist in Doylestown, PA, alongside adults with disabilities throughout Bucks County, and spent a year teaching English as a Foreign Language in the city of Changsha, Hunan Province, China.
+    link: "BadgerJohn"
+    photo: "badger.jpg"
+  -
+    firstname : "Denise"
+    lastname : "Beckett"
+    title : "Project Coordinator"
+    email : "denise.beckett@temple.edu"
+    phone : "215-204-4979"
+    bio : Ms. Beckett is the Community Services Project Associate, responsible for researching best practices in community board inclusion; organizing advisory committees, work groups and statewide trainings; and assisting in monitoring project subcontractors in the delivery of trainings to generic boards in order to include individuals with disabilities. Prior to joining the Institute, Denise served as the admissions administrator at a private academy. Ms. Beckett earned a master's degree in Advanced Theology from Chesapeake Seminary.
+    link: "BeckettDenise"
+    photo: "beckettSsz.jpg"
+  -
+    firstname : "Titania"
+    lastname : "Boddie"
+    title : "Program Coordinator, Academy for Adult Learning; Assistant Coordinator, Supported Leadership"
+    email : "Tboddi01@temple.edu"
+    phone : "215-204-3916"
+    bio : Ms. Boddie is the Project Manager of the Academy for Adult Learning (AAL) and is responsible for overseeing the day to day operations of AAL. Titania serves as the primary instructor of the AAL seminar for both freshmen and seniors. Her essential functions include developing curricula, policies and procedures, presenting at city and state-wide events as well as planning and organizing events. In addition, Titania has worked with the Philadelphia Mental Health Center and Philadelphia School District supporting people with disabilities. She earned her Bachelor's Degree in Elementary/Early Childhood Education at Temple University and is currently pursuing a Master's Degree through the Adult Organizational Development program, College of Education at Temple University.
+    link: "BoddieTitania"
+    photo: "boddie.jpg"
+  -
+    firstname : "Yvette"
+    lastname : "Bolden"
+    title : "Administrative Assistant"
+    email : "bolden@temple.edu"
+    phone : "215-204-1356"
+    bio : Ms. Bolden is the Administrative Assistant for Pennsylvania's Initiative on Assistive Technology (PIAT), responsible for many of the administrative functions of this Institute program.
+    link: "BoldenYvette"
+    photo: "bolden.jpg"
+  -
+    firstname : "Monica"
+    lastname : "Bolli"
+    title : "Office Manager"
+    email : "monica.bolli@temple.edu"
+    phone : "215-204-7556"
+    bio : As Office Manager, Ms. Bolli is responsible for the daily administrative operations in the Institute's main office. In addition, she works with several Institute programs including C2P2 Early Intervention and Families First. Before coming to the Institute, Monica spent more than 20 years in the consulting field at United Professional Plans Inc., a benefit design firm.
+    link: "BolliMonica"
+    photo: "bolli.jpg"
+  -
+    firstname : "Anthony"
+    lastname : "Brown"
+    title : "Coordinator of Academic Relations, Academy for Adult Learning"
+    email : "anthony.brown0001@temple.edu"
+    phone : "215-204-7177"
+    bio : Mr. Brown is the Academic Relations Coordinator of the Academy for Adult Learning. He is responsible for leading the team of faculty, students and other ancillary professionals in developing an appropriate accommodation plan for each student auditing undergraduate and continuing education courses. Mr. Brown acts as the lead liaison with faculty in placing Academy students in undergraduate courses that match their interests and abilities. Mr. Brown has a Masters Degree in Education from Eastern University.
+    link: "BrownAnthony"
+    photo: "brown.jpg"
+  -
+    firstname : "Guy"
+    lastname : "Caruso"
+    title : "Coordinator of UCEDD West"
+    email : "guy@temple.edu"
+    phone : "724-934-1142"
+    bio : As Western Coordinator, Dr. Caruso is responsible for training and related activities in western Pennsylvania. In addition, he provides technical assistance to Pennsylvania's ODP Independent Monitoring for Quality Program. He has worked in human services for more than 40 years as an advocate, teacher, trainer, researcher, and consultant. Dr. Caruso has a master's degree and a doctorate from Syracuse University and is a Fellow of the American Association on Intellectual and Developmental Disabilities.
+    link: "CarusoGuy"
+    photo: "caruso.jpg"
+  -
+    firstname : "Amy"
+    lastname : "Letson"
+    title : "Web Developer"
+    email : "amy.letson@temple.edu"
+    phone : "215-204-9558"
+    bio : Ms. Letson manages website development, photography, and social media for the Institute. She holds a BFA from the University of Delaware and a master's from Temple University. Her professional experience spans news, publishing, finance, nonprofit, and higher education sectors.
+    link: "LetsonAmy"
+    photo: "letson.jpg"
