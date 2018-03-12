@@ -69,9 +69,12 @@ body {font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans
 .smaller-text-90{
    @include breakpoint(medium) {font-size: 90%;}
 }
-.logo-padding{
-  padding-bottom:20px;
+.logo-padding {
+  padding-bottom:10px;
   padding-top: 10px;
+}
+.logo-bg {
+  background-color:$light-gray;
 }
 
 // Semantic, but right-sized...
