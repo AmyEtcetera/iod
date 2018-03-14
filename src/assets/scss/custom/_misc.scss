@@ -7,6 +7,7 @@
 /*xxxxxxxxxx       VARIABLES         xxxxxxxxxx*/
 $white-white: #fff;
 $link-blue: #2a659a;
+$darkest-gray: #333;
 
 @mixin testborder($width, $color, $padding) {
   border-width: $width;
@@ -26,6 +27,7 @@ body {font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans
   font-family: "Roboto Condensed", Arial, sans-serif;
   font-weight: 400;
 }
+.darkest-gray {color:$darkest-gray;}
 .header-font-size {
   font-size: 2.5rem;
 }
@@ -125,7 +127,12 @@ aside h3 {
   .deck {max-width: 70%;}
   .transparent-bg {background-color: rgba(255, 255, 255, 0.2);padding:10px;}
 }
-
+.bg-white {
+  background-color: $white-white;
+}
+.bg-dark {
+  background-color: $dark-gray;
+}
 // Example of using a mixin to customize
 .menu-icon {
   @include hamburger($white-white, $light-gray, 24px, 20px, 2px, 3);

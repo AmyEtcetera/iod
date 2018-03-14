@@ -71,3 +71,12 @@ staffArray:
     bio : Ms. Letson manages website development, photography, and social media for the Institute. She holds a BFA from the University of Delaware and a master's from Temple University. Her professional experience spans news, publishing, finance, nonprofit, and higher education sectors.
     link: "LetsonAmy"
     photo: "letson.jpg"
+  -
+    firstname : "Kate"
+    lastname : "Fialkowski"
+    title : "Director of Academic Programs"
+    email : "kate.fialkowski@temple.edu"
+    phone : "215-204-6560"
+    bio : Ms. Fialkowski directs the Institute on Disabilities university-based education programs, including the Interdisciplinary Faculty Council on Disability, the Disability and Change Symposium, and the Disability Studies Certificate program. Ms. Fialkowski was an MIT Executive in Residence at the Media Lab's Center for Future Banking, a Joseph P. Kennedy Jr. Public Policy Fellow at the Administration on Intellectual and Developmental Disabilities, and the Executive Director of The Arc Maryland.
+    link: "FialkowskiKate"
+    photo: "fialkowski.jpg"
