@@ -3,6 +3,7 @@
 // CREATE CLEAR SECTIONS AND POSSIBLY MOVE SECTION TO A SEPARATE SHEET IF IT BECOMES LARGE.
 // STYLES FOR THE NAV MAY BE A GOOD CANDIDATE FOR A SEPARATE SHEET,
 // ALSO TYPOGRAPHY, LINKS, AND FORMS, AND SOMETHING LIKE STRUCTURE/LAYOUT.
+// POSSIBLY OVERRIDES OF COMPONENTS.
 
 /*xxxxxxxxxx       VARIABLES         xxxxxxxxxx*/
 $white-white: #fff;
@@ -58,17 +59,25 @@ body {font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans
 .vertical.first-sub.submenu.is-accordion-submenu{
   //margin-left:1rem;
 }
-.footer-links{
+.footer-links {
   font-size: 88%;
-  li { border-bottom: 1px dashed $light-gray; }
+  li { border-bottom: 1px dashed #454545; }
 }
-.footer-text{
+.footer-text {
   font-size: 88%;
 }
-.smaller-text-60{
+footer {
+  a:link, a:visited {
+    color: #fcfcfc;
+  }
+  a:hover, a:active {
+    color: #f7dc6f;
+  }
+}
+.smaller-text-60 {
   font-size: 60%;
 }
-.smaller-text-90{
+.smaller-text-90 {
    @include breakpoint(medium) {font-size: 90%;}
 }
 .logo-padding {
@@ -116,7 +125,7 @@ aside h3 {
   padding-left: 5px;
   text-transform: capitalize;
 }
-.top-bar a {color:#666;}
+.top-bar a {color:#404040;}
 // need vert divider, note if empty first li is removed another class will be needed for border-left
 .top-bar li {border-right: 1px solid #ddd;}
 
@@ -132,6 +141,15 @@ aside h3 {
 }
 .bg-dark {
   background-color: $dark-gray;
+}
+.bg-darker {
+  background-color: $darkest-gray;
+}
+.txt-lightest {
+  color: #fcfcfc;
+}
+.hr-hint {
+  border-bottom: 1px solid #454545;
 }
 // Example of using a mixin to customize
 .menu-icon {
