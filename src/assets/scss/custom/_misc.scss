@@ -59,6 +59,11 @@ body {font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans
 .vertical.first-sub.submenu.is-accordion-submenu{
   //margin-left:1rem;
 }
+
+.dropdown .is-dropdown-submenu a {
+  border-bottom: 1px dashed $light-gray;
+}
+
 .footer-links {
   font-size: 88%;
   li { border-bottom: 1px dashed #454545; }
