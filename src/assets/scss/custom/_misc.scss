@@ -9,6 +9,11 @@
 $white-white: #fff;
 $link-blue: #2a659a;
 $darkest-gray: #333;
+//$iod-white:
+$tu-black: #222;
+$tu-red: #a41e35;
+$tu-gray: #899197;
+$tu-blue: #3a6296;
 
 @mixin testborder($width, $color, $padding) {
   border-width: $width;
@@ -17,7 +22,10 @@ $darkest-gray: #333;
   padding: $padding;
 }
 
-body {font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;}
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  color:$tu-black; // doesn't apply to callout or form text
+}
 
 .testborderone {
   @include testborder(6px, #333, 2em);
@@ -45,24 +53,7 @@ body {font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans
   z-index: 1;
 }
 
-.menu .active > a {
-    background: $dark-gray;
-    border-radius:2px;
-}
-.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a::after {
-    border-color: $medium-gray transparent transparent;
-}
-.accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a::after {
-    border-color: $medium-gray transparent transparent;
-}
-
-.vertical.first-sub.submenu.is-accordion-submenu{
-  //margin-left:1rem;
-}
-
-.dropdown .is-dropdown-submenu a {
-  border-bottom: 1px dashed $light-gray;
-}
+// topbar items removed
 
 .footer-links {
   font-size: 88%;
@@ -104,38 +95,10 @@ aside h3 {
 .l-r-padding-half {padding-left:0.5rem;padding-right:0.5rem;}
 .r-padding-half {padding-right:0.5rem;}
 
-// Make it light
-.top-bar {
-  border-top:4px solid #556d86;
-  box-shadow: 0 4px 4px -3px #ccc;
-  background-color: $white-white;
-  padding:0;
-}
 
-// The light color doesn't cascade from .top-bar, so...
-.top-bar ul {
-  background-color: $white-white;
-}
-
-@media (max-width: 639px) {
-  .top-bar li ul {
-    margin-left: 1.6rem;
-  }
-}
-
-.title-bar {
-  background-color: #415366;
-}
-.title-bar-title {
-  padding-left: 5px;
-  text-transform: capitalize;
-}
-.top-bar a {color:#404040;}
-// need vert divider, note if empty first li is removed another class will be needed for border-left
-.top-bar li {border-right: 1px solid #ddd;}
 
 .hero {
-  background-color: #cccccc;
+  background-color: $medium-gray;
   background-image: url("http://via.placeholder.com/1200x400/c0c0c0");
   padding: 50px 0.9375rem 50px 0.9375rem;
   .deck {max-width: 70%;}
@@ -156,14 +119,11 @@ aside h3 {
 .hr-hint {
   border-bottom: 1px solid #454545;
 }
-// Example of using a mixin to customize
-.menu-icon {
-  @include hamburger($white-white, $light-gray, 24px, 20px, 2px, 3);
-}
 
 .hr-slim{
 	margin:0;
 }
+
 .toc {
   font-size: 0.9rem;
   h4 {
