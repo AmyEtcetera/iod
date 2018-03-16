@@ -31,18 +31,6 @@ body {
   @include testborder(6px, #333, 2em);
 }
 
-// maybe actually use some of these
-.narrow-page-title {
-  font-family: "Roboto Condensed", Arial, sans-serif;
-  font-weight: 400;
-}
-.darkest-gray {color:$darkest-gray;}
-.header-font-size {
-  font-size: 2.5rem;
-}
-.header-line-ht {
-  line-height: 2.2rem;
-}
 
 // highlight flex grid items, delete at some point
 .demo {
@@ -55,27 +43,6 @@ body {
 
 // topbar items removed
 
-.footer-links {
-  font-size: 88%;
-  li { border-bottom: 1px dashed #454545; }
-}
-.footer-text {
-  font-size: 88%;
-}
-footer {
-  a:link, a:visited {
-    color: #fcfcfc;
-  }
-  a:hover, a:active {
-    color: #f7dc6f;
-  }
-}
-.smaller-text-60 {
-  font-size: 60%;
-}
-.smaller-text-90 {
-   @include breakpoint(medium) {font-size: 90%;}
-}
 .logo-padding {
   padding-bottom:10px;
   padding-top: 10px;
@@ -84,18 +51,11 @@ footer {
   background-color:$light-gray;
 }
 
-// Semantic, but right-sized...
-aside h3 {
-  font-size: 1.25rem;
-}
-
 // Too much space between breadcrumbs and horiz rule that follows...
 .breadcrumbs {margin: 0;}
 
 .l-r-padding-half {padding-left:0.5rem;padding-right:0.5rem;}
 .r-padding-half {padding-right:0.5rem;}
-
-
 
 .hero {
   background-color: $medium-gray;
@@ -104,29 +64,12 @@ aside h3 {
   .deck {max-width: 70%;}
   .transparent-bg {background-color: rgba(255, 255, 255, 0.2);padding:10px;}
 }
-.bg-white {
-  background-color: $white-white;
-}
-.bg-dark {
-  background-color: $dark-gray;
-}
-.bg-darker {
-  background-color: $darkest-gray;
-}
-.txt-lightest {
-  color: #fcfcfc;
-}
+
+
 .hr-hint {
   border-bottom: 1px solid #454545;
 }
 
 .hr-slim{
 	margin:0;
-}
-
-.toc {
-  font-size: 0.9rem;
-  h4 {
-    font-size: 1rem;
-  }
 }

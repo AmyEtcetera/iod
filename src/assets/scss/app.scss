@@ -3,7 +3,7 @@
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
-// and iod imports next
+// iod imports next...
 @import 'custom/fonts';
 // custom is at the bottom of this doc
 
@@ -55,9 +55,12 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-// my import
+// iod imports, fonts imported near top of this document...
+@import 'custom/colors';
+@import 'custom/typography';
 @import 'custom/misc';
 @import 'custom/topbar';
+@import 'custom/buttons';
 // other components or custom TK:
 // layout
 // links

@@ -1,0 +1,24 @@
+$white-white: #fff;
+$link-blue: #2a659a;
+$darkest-gray: #333;
+//$iod-white:
+$tu-black: #222;
+$tu-red: #a41e35;
+$tu-gray: #899197;
+$tu-blue: #3a6296;
+
+.darkest-gray {color:$darkest-gray;}
+
+.bg-white {
+  background-color: $white-white;
+}
+.bg-dark {
+  background-color: $dark-gray;
+}
+.bg-darker {
+  background-color: $darkest-gray;
+}
+
+.txt-lightest {
+  color: #fcfcfc;
+}

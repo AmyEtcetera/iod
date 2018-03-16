@@ -1,0 +1,48 @@
+// reorganize...
+
+.narrow-page-title {
+  font-family: "Roboto Condensed", Arial, sans-serif;
+  font-weight: 400;
+}
+.header-font-size {
+  font-size: 2.5rem;
+}
+.header-line-ht {
+  line-height: 2.2rem;
+}
+
+.footer-links {
+  font-size: 88%;
+  li { border-bottom: 1px dashed #454545; }
+}
+.footer-text {
+  font-size: 88%;
+}
+footer {
+  a:link, a:visited {
+    color: #fcfcfc;
+  }
+  a:hover, a:active {
+    color: #f7dc6f;
+  }
+}
+.smaller-text-60 {
+  font-size: 60%;
+}
+.smaller-text-90 {
+   @include breakpoint(medium) {font-size: 90%;}
+}
+
+.toc {
+  font-size: 0.9rem;
+  h4 {
+    font-size: 1rem;
+  }
+}
+
+// Semantic, but right-sized...
+aside h3 {
+  font-size: 1.25rem;
+}
+
+h5 {}
