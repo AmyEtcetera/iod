@@ -61,12 +61,16 @@ body {
   background-color: $medium-gray;
   background-image: url("http://via.placeholder.com/1200x400/c0c0c0");
   padding: 50px 0.9375rem 50px 0.9375rem;
-  .deck {max-width: 70%;}
-  .transparent-bg {background-color: rgba(255, 255, 255, 0.2);padding:10px;}
+    .deck {
+      max-width: 70%;
+    }
+    .transparent-bg {
+      background-color: rgba(255, 255, 255, 0.2);
+      padding:10px;
+    }
 }
 
-
-.hr-hint {
+.hr-hint { // suggested for underline below a heading, try using alpha etc
   border-bottom: 1px solid #454545;
 }
 
