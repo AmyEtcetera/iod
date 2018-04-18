@@ -5,15 +5,6 @@
 // ALSO TYPOGRAPHY, LINKS, AND FORMS, AND SOMETHING LIKE STRUCTURE/LAYOUT.
 // POSSIBLY OVERRIDES OF COMPONENTS.
 
-/*xxxxxxxxxx       VARIABLES         xxxxxxxxxx*/
-
-//$white-white: #fff;
-//$link-blue: #2a659a;
-//$darkest-gray: #333;
-//$tu-black: #222;
-//$tu-red: #a41e35;
-//$tu-gray: #899197;
-//$tu-blue: #3a6296;
 
 @mixin testborder($width, $color, $padding) {
   border-width: $width;
@@ -30,7 +21,6 @@ body {
 .testborderone {
   @include testborder(6px, #333, 2em);
 }
-
 
 // highlight flex grid items, delete at some point
 .demo {
@@ -71,7 +61,7 @@ body {
   border-bottom: 1px solid #454545;
 }
 
-.hr-slim{
+.hr-slim {
 	margin:0;
 }
 
