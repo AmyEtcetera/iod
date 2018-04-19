@@ -46,7 +46,8 @@ body {
 
 .hero {
   background-color: $medium-gray;
-  background-image: url("http://via.placeholder.com/1200x400/c0c0c0");
+  // background-image: url("http://via.placeholder.com/1200x400/c0c0c0");
+  background-image: url("../img/feature/flashy-phone-3000x.jpg");
   padding: 50px 0.9375rem 50px 0.9375rem;
     .deck {
       max-width: 70%;
@@ -67,3 +68,46 @@ body {
 
 .padding-none { padding:0 !important; }
 .padding-breadcrumbs { padding: 0 1rem 0 1rem; }
+
+// Adding items for section feature image test
+@mixin feature-img ($img, $height: 100vh, $position: center center) {
+  background: linear-gradient(to bottom,
+  rgba(0,0,0,0),
+  rgba(0,0,0,0.6)),
+  url($img);
+  background-repeat: no-repeat;
+  background-position: $position;
+  background-size: cover;
+  height: $height;
+}
+.feature-bg {
+  color: $white;
+  margin: 20px 0;
+  width: 100%;
+  display: table;
+
+  .feature-container {
+    display: table-cell;
+    vertical-align: bottom;
+    padding-bottom: 20px;
+    h2 {
+      color: $tu-red;
+      font-size: 4rem;
+      line-height: 105%;
+      margin-bottom: 0;
+      padding: 0 9%;
+    }
+    p {
+      padding: 0 9%;
+      margin-top: 0;
+    }
+  }
+}
+.feature-item {
+  @include feature-img("../img/feature/flashy-phone-3000x.jpg", 600px, top center);
+  //background-color: $darkest-gray;
+  //height: 500px;
+}
+
+
+// end feature image test
