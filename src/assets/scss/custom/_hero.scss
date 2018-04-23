@@ -39,7 +39,7 @@
 
 .feature-bg {
   color: $white;
-  margin: 20px 0;
+  margin: 0;
   width: 100%;
   display: table;
   .feature-container {
@@ -70,4 +70,7 @@
 .feature-item {
   @include feature-img("../img/feature/flashy-phone-3000x.jpg", "right top", 590px, 490px);
   // @include feature-img("../img/feature/flashy-phone-3000x.jpg");
+}
+.feature-item-vision {
+  @include feature-img("../img/feature/sean-col-3000x.jpg", "right top", 450px, 400px);
 }
