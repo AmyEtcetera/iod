@@ -1,1 +1,18 @@
+// This and other sheets are imported to app.scss
 // button styles will be here
+
+.button.primary {
+    background-color: $iod-blue;
+    border-radius: 3px;
+    }
+.button.secondary {
+    background-color: $tu-gray;
+    border-radius: 3px;
+    }
+.button.warning {
+    background-color: $tu-red;
+    border-radius: 3px;
+    }
+    //success: #3adb76,
+    //warning: #ffae00,
+    //alert: #cc4b37,

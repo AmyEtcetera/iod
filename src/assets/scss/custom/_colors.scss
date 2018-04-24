@@ -1,9 +1,10 @@
-
+// This and other sheets are imported to app.scss
 /*xxxxxxxxxx       COLOR VARIABLES         xxxxxxxxxx*/
 
 /* MISC Colors */
 $white-white: #fff;
 $darkest-gray: #333;
+$blacker-black: #0a0a0a;
 
 /* TU Colors */
 $tu-black: #222;
@@ -34,3 +35,14 @@ $iod-red: #990000;
 .bg-lightest-gray {
   background-color: lighten($dark-gray, 40%);
 }
+
+
+
+/* REDEFINE Foundation button colors */
+//$foundation-palette: (
+  //primary: #1779ba,
+  //secondary: #767676,
+  //success: #3adb76,
+  //warning: #ffae00,
+  //alert: #cc4b37,
+//);

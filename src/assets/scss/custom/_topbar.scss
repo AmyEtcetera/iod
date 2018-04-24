@@ -3,8 +3,16 @@
     border-radius:2px;
 }
 .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a::after {
-    border-color: $medium-gray transparent transparent;
+    border-color: $blacker-black transparent transparent;
 }
+
+.accordion-menu li {
+    border-bottom: 1px solid $blacker-black;
+    :last-of-type {
+      border-bottom: none;
+    }
+}
+
 .accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a::after {
     border-color: $medium-gray transparent transparent;
 }
@@ -12,21 +20,18 @@
   //margin-left:1rem;
 }
 .dropdown .is-dropdown-submenu a {
-  border-bottom: 1px dashed $light-gray;
+  border-bottom: 1px dashed $blacker-black;
 }
-
 
 // Make it light
 .top-bar {
-  // border-top:4px solid #556d86;
-  border-top:3px solid $tu-red;
-  box-shadow: 0 4px 4px -3px #ccc;
+  border-top:2px solid $tu-red;
+  box-shadow: 0 4px 4px -3px #333;
   background-color: $white-white;
-  // background-color: $tu-black;
   padding:0;
 }
 
-// The light color doesn't cascade from .top-bar, so...
+// The color doesn't cascade from .top-bar, so...
 .top-bar ul {
   //background-color: $white-white;
   background-color: $tu-black;
@@ -39,21 +44,31 @@
 }
 
 .title-bar {
-  background-color: #415366;
+  background-color: $tu-black;
 }
 .title-bar-title {
   padding-left: 5px;
   text-transform: capitalize;
 }
 .top-bar a {
-  color:#404040;
-}
-// need vert divider, note if empty first li is removed another class will be needed for border-left
-.top-bar li {
-  border-right: 1px solid #ddd;
+  color: #fcfcfc;
+  font-weight: 300;
+  &:hover {
+    color: lighten($iod-blue, 30%);
+  }
+  &:active {
+    color: lighten($iod-blue, 30%);
+  }
 }
 
-// Example of using a mixin to customize
+// need vert divider, note if empty first li is removed another class will be needed for border-left
+.top-bar li {
+  border-right: 1px solid $blacker-black;
+  li {border-right: none;}
+}
+
+
+// Using a mixin to customize
 .menu-icon {
   @include hamburger($white-white, $light-gray, 24px, 20px, 2px, 3);
 }
