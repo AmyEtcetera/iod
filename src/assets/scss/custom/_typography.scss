@@ -1,11 +1,18 @@
 // reorganize...
+$font-stack-text: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-stack-display: "Roboto Condensed", Arial, sans-serif;
+
+body {
+  font-family: $font-stack-text;
+  color:$tu-black; // does not apply to callout or form text
+}
 
 .narrow-site-title {
-  font-family: "Roboto Condensed", Arial, sans-serif;
+  font-family: $font-stack-display;
   font-weight: 400;
 }
 .narrow-page-title {
-  font-family: "Roboto Condensed", Arial, sans-serif;
+  font-family: $font-stack-display;
   font-weight: 400;
   margin-top:0.6rem;
 }

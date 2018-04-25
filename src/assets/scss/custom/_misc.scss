@@ -12,10 +12,7 @@
   padding: $padding;
 }
 
-body {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  color:$tu-black; // doesn't apply to callout or form text
-}
+
 
 .testborderone {
   @include testborder(6px, #333, 2em);
