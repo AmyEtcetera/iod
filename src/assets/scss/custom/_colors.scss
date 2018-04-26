@@ -18,7 +18,7 @@ $iod-red: #990000;
 // $iod-blue: #3a6296;
 // iod home page topstories h1: 535353
 
-.darkest-gray {color:$darkest-gray;}
+.darkest-gray {color: $darkest-gray;}
 
 .bg-white {
   background-color: $white-white;
@@ -31,6 +31,9 @@ $iod-red: #990000;
 }
 .txt-lightest {
   color: #fcfcfc;
+}
+.txt-color-head {
+  color: darken($tu-red, 10%);
 }
 .bg-lightest-gray {
   background-color: lighten($dark-gray, 40%);

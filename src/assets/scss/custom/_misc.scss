@@ -12,8 +12,6 @@
   padding: $padding;
 }
 
-
-
 .testborderone {
   @include testborder(6px, #333, 2em);
 }
@@ -23,7 +21,7 @@
   background: #1779ba;
 }
 
-.above-all{
+.above-all {
   z-index: 1;
 }
 
@@ -40,13 +38,12 @@
 .l-r-padding-half {padding-left:0.5rem;padding-right:0.5rem;}
 .r-padding-half {padding-right:0.5rem;}
 
+.padding-none { padding:0 !important; }
+.padding-breadcrumbs { padding: 0 1rem 0 1rem; }
+
 .hr-hint { // suggested for underline below a heading, try using alpha etc
   border-bottom: 1px solid #454545;
 }
-
 .hr-slim {
 	margin:0;
 }
-
-.padding-none { padding:0 !important; }
-.padding-breadcrumbs { padding: 0 1rem 0 1rem; }

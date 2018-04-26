@@ -1,0 +1,16 @@
+// This and other sheets are imported to app.scss
+// list styles will be here
+
+.indent-list {
+  margin-left: 2rem !important;
+  margin-right: 2rem;
+}
+
+main {
+  li {
+    margin-bottom: 0.6rem;
+  }
+  li:last-of-type {
+    margin-bottom: 0;
+  }
+}

@@ -4,9 +4,8 @@ $font-stack-display: "Roboto Condensed", Arial, sans-serif;
 
 body {
   font-family: $font-stack-text;
-  color:$tu-black; // does not apply to callout or form text
+  color: $tu-black; // does not apply to callout or form text
 }
-
 .narrow-site-title {
   font-family: $font-stack-display;
   font-weight: 400;
@@ -22,6 +21,70 @@ body {
 .header-line-ht {
   line-height: 2.2rem;
 }
+
+main {
+  p, ul, ol {
+    @include breakpoint(small) {
+      font-size: 1.2rem; // www.modularscale.com, minor third
+      //line-height: 1.7;
+      line-height: 1.5;
+      font-weight: 300;
+    }
+    @include breakpoint(medium) {
+      font-size: 1.2rem; // www.modularscale.com, minor third
+      line-height: 1.6;
+      font-weight: 300;
+    }
+    @include breakpoint(large) {
+      font-size: 1.728rem;
+      line-height: 1.5;
+      font-weight: 300;
+    }
+  }
+}
+// p {
+//   margin-bottom: 1rem;
+//   font-size: inherit;
+//   line-height: 1.6;
+//   text-rendering: optimizeLegibility; }
+
+.lead, .feature-lead {
+  @include breakpoint(small) {
+    font-family: $font-stack-display;
+    font-size: 1.728rem;
+    line-height: 1.6;
+    position: relative; // for the pseudo content border
+    margin-bottom: 40px; // for the pseudo content border
+    //color: white;
+    //background-color: crimson;
+  }
+  @include breakpoint(medium) {
+    font-family: $font-stack-display;
+    font-size: 2.074rem;
+    line-height: 1.5;
+    position: relative; // for the pseudo content border
+    margin-bottom: 40px; // for the pseudo content border
+    //border-bottom:12px solid #666;
+    //font-weight: 400;
+  }
+  @include breakpoint(large) {
+    font-family: $font-stack-display;
+    font-size: 2.488rem;
+    line-height: 1.5;
+    font-weight: 400;
+    position: relative; // for the pseudo content border
+    margin-bottom: 40px; // for the pseudo content border
+  }
+}
+/* pseudo content partial border below lead paragraphs */
+.lead:after {
+        content: '';
+        position: absolute;
+        width: 30%;
+        left: 2%;
+        bottom: -20px;
+        border-bottom: 5px solid $tu-bright-blue-accent;
+    }
 
 .footer-links {
   font-size: 88%;
