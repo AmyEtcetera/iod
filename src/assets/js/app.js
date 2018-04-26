@@ -15,6 +15,16 @@ $(document).foundation();
 //      $("p").css("border", "3px solid blue");
 // });
 
+//function searchTable() {
+  $(document).ready(function(){
+  $("#searchInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#searchTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+//}
 
 // This is for offsetting the problem created by the sticky nav when using jump links:
 // The function actually applying the offset
