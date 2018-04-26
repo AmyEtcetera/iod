@@ -1,11 +1,13 @@
 @charset 'utf-8';
 
 @import 'settings';
+// IOD custom settings overrides follows default settings...
+@import 'custom/settings-overrides';
 @import 'foundation';
 @import 'motion-ui';
-// iod imports next...
+// IOD, other imports next...
 @import 'custom/fonts';
-// custom is at the bottom of this doc
+// custom includes are at the bottom of this doc
 
 @include foundation-global-styles;
 // @include foundation-grid;
@@ -55,7 +57,9 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-// iod imports, fonts imported near top of this document...
+// Vendor styles should go here:
+
+// IOD imports, fonts imported near top of this document...
 @import 'custom/colors';
 @import 'custom/typography';
 @import 'custom/lists';

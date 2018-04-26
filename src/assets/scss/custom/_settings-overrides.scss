@@ -1,0 +1,12 @@
+// import near top of app.scss
+
+$dropdownmenu-arrow-color: #0a0a0a; // not using color vars because not yet defined
+
+$accordionmenu-arrow-color: $medium-gray; // Foundation color var
+
+$dropdownmenu-border: 3px solid #fcb426; // box around the descended list items, expanded menu
+
+$dropdown-menu-item-color-active: #fcb426;
+
+$titlebar-background: #222; // ($tu-black)
+$titlebar-color: #e4e6e7; // scaled from #899197, aka $tu-gray

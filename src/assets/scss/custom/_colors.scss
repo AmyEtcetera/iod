@@ -38,8 +38,8 @@ $iod-red: #990000;
 .bg-lightest-gray {
   background-color: lighten($dark-gray, 40%);
 }
-
-
+// REDEFINE Foundation dropdown menu triangle
+// $dropdownmenu-arrow-color: $white-white;
 
 /* REDEFINE Foundation button colors */
 //$foundation-palette: (
