@@ -1,4 +1,4 @@
-.menu .active > a {
+.menu .active > a { // ??
     background: $dark-gray;
     border-radius: 2px;
 }
@@ -29,9 +29,28 @@
   box-shadow: 0 4px 4px -3px #333;
   //background-color: $white-white;  // likely unused, candidate for deletion
   padding: 0;
-  ul {
-    background-color: $tu-black;
-  }
+    ul {
+      background-color: $tu-black;
+    }
+    // vert divider in expanded menu bar
+    // note if empty first li is removed another class will be needed for border-left
+    li {
+      border-right: 1px solid $blacker-black;
+      padding-right: 0.5rem;
+      li {border-right: none;}
+    }
+    a {
+      color: #fcfcfc;
+      font-family: Roboto;
+      font-size: 1.2rem;
+      font-weight: 300;
+        &:hover {
+          color: lighten($iod-blue, 40%);
+        }
+        &:active {
+          color: lighten($iod-blue, 30%);
+        }
+      }
 }
 
 @media (max-width: 639px) {
@@ -43,24 +62,6 @@
 .title-bar-title {
   padding-left: 5px;
   text-transform: capitalize;
-}
-
-.top-bar a {
-  color: #fcfcfc;
-  font-weight: 300;
-  &:hover {
-    color: lighten($iod-blue, 40%);
-  }
-  &:active {
-    color: lighten($iod-blue, 30%);
-  }
-}
-
-// vert divider in expanded menu bar
-// note if empty first li is removed another class will be needed for border-left
-.top-bar li {
-  border-right: 1px solid $blacker-black;
-  li {border-right: none;}
 }
 
 // Using a mixin to customize
