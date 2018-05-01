@@ -28,15 +28,22 @@
 // topbar items removed
 
 .logo-padding {
-  padding-bottom:10px;
+  padding-bottom: 10px;
   padding-top: 10px;
 }
 .logo-bg {
-  background-color:$light-gray;
+  @include breakpoint(large) {
+    background-color: $light-gray;
+  }
 }
 
-.l-r-padding-unit {padding-left:1rem;padding-right:1rem;}
-.r-padding-unit {padding-right:1rem;}
+.l-r-padding-unit {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.r-padding-unit {
+  padding-right: 1rem;
+}
 
 .padding-none { padding:0 !important; }
 .padding-breadcrumbs { padding: 0 1rem 0 1rem; }
