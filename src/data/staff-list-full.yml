@@ -90,15 +90,6 @@ staffArray:
     link: "DorseySandie"
     photo: "dorsey.jpg"
   -
-    firstname : "Shenice"
-    lastname : "Evans"
-    title : "Assistive Technology Specialist / Consumer Educator, TDDP program"
-    email : "shenice.evans@temple.edu"
-    phone : "215-204-5097"
-    bio : Ms. Evans is the Assistive Technology Specialist and Consumer Educator for the Telecommunication Device Distribution Program (TDDP), at the Institute on Disabilities. She conducts presentations and device demonstrations for individuals, organizations, and at regional events. Ms. Evans develops outreach and recruitment strategies to increase awareness for current and new program initiatives. Ms. Evans has a Master's Degree in Special Education from Drexel University.
-    link: "EvansShenice"
-    photo: "evans.jpg"
-  -
     firstname : "Celia"
     lastname : "Feinstein"
     title : "Executive Director"
@@ -122,7 +113,9 @@ staffArray:
     title : "Director of Academic Programs"
     email : "kate.fialkowski@temple.edu"
     phone : "215-204-6560"
-    bio : Ms. Fialkowski directs the Institute on Disabilities' university-based education programs, including the Interdisciplinary Faculty Council on Disability, the Disability and Change Symposium, and the Disability Studies Certificate program. Ms. Fialkowski was an MIT Executive in Residence at the Media Lab's Center for Future Banking, a Joseph P. Kennedy Jr. Public Policy Fellow at the Administration on Intellectual and Developmental Disabilities, and the Executive Director of The Arc Maryland. As an American Association of University Women (AAUW) Career Development Grantee, Ms. Fialkowski received her Master of Theological Studies.
+    bio : Ms. Fialkowski directs the Institute on Disabilities' university-based education programs, including the Interdisciplinary Faculty Council on Disability, the Disability and Change Symposium, and the Disability Studies Certificate program. Ms. Fialkowski was an MIT Executive in Residence at the Media Lab's Center for Future Banking, a Joseph P. Kennedy Jr. Public Policy Fellow at the Administration on Intellectual and Developmental Disabilities, and the Executive Director of The Arc Maryland. As an American Association of University Women (AAUW) Career Development Grantee...
+    bio-pt2: She also holds a BA in Technical Communication from Bowling Green State University. The Fialkowski family were involved in several landmark cases including Halderman v. Pennhurst State School and Hospital, PARC v. The Commonwealth of Pennsylvania, and Fialkowski v. Greenwhich Home for Children. Kate Fialkowski has worked on numerous national disability policy task groups including Building a National Agenda for Supporting Families with a Member with Intellectual and Developmental Disabilities (2011) and Enabling Adults with ID...
+    bio-pt3: Affected by Dementia to Remain in Their Community and Receive Supports (2012). National conference presentations include Including People with Disabilities in the Discussion of Domestic Abuse and Violence (2016). Ms. Fialkowski and her brother David Fialkowski are active sibling advocates and have presented together at a number of events including Temple Institute on Disabilities Miniseries, Siblings Moving Beyond the Parent/Child Relationship (2011).
     link: "FialkowskiKate"
     photo: "fialkowski.jpg"
   -
