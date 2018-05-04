@@ -1,0 +1,48 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{head-title}}</title>
+    <meta name="description" content="{{meta-description}}">
+    <!-- Fonts loaded from style sheet now. Do not add here. -->
+    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+    <script src="https://use.fontawesome.com/e092166dca.js" async></script>
+    <!-- FB OG TAGS HERE... -->
+    <!-- sample ...
+    <meta property="og:url" content="https://disabilities.temple.edu/news/topstories/">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Leadership and Career Studies Registration Open">
+    <meta property="og:description" content="Four-year certificate program provides a college experience for students with intellectual disabilities.">
+    <meta property="og:image" content="https://disabilities.temple.edu/data1/images/speed-aal-crop.jpg">
+  -->
+    <meta property="og:url" content="{{og-url}}">
+    <meta property="og:type" content="{{og-type}}">
+    <meta property="og:title" content="{{og-title}}">
+    <meta property="og:description" content="{{og-description}}">
+    <meta property="og:image" content="{{og-image}}">
+	  <!-- ANALYTICS NEXT: -->
+    <!--
+    <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-9227912-1', 'auto');
+	  ga('send', 'pageview');
+	 </script>
+   -->
+  </head>
+  <body>
+    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+    {{> header}}
+    {{> global-nav-ex}}
+    {{> body}}
+    {{> footer}}
+    <script src="{{root}}assets/js/app.js"></script>
+    <!-- loading scripts here won't work...
+    <script src="{{root}}assets/js/scripts.js"></script> -->
+  </body>
+</html>

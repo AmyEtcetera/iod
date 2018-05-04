@@ -1,0 +1,23 @@
+nav:
+  -
+    text: Alpha
+    href: "{{root}}/about/"
+    levels: two
+    sub:
+      -
+        subtext: alpha1
+        subhref: "{{root}}/about/staff.html"
+      -
+        subtext: alpha2
+        subhref: "{{root}}/about/history.html"
+  -
+    text: Beta
+    href: "{{root}}/about/"
+    levels: two
+    sub:
+      -
+        subtext: beta1
+        subhref: "{{root}}/about/staff.html"
+      -
+        subtext: beta2
+        subhref: "{{root}}/about/history.html"

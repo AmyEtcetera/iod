@@ -7,6 +7,17 @@
 <div class="top-bar" id="example-menu"  data-sticky data-options="anchor:page;marginTop:0;" style="width:100%">
   <div class="top-bar-left">
   <ul class="vertical medium-horizontal menu bg-white" data-responsive-menu="accordion medium-dropdown">
+    {{#each global-nav.nav}}
+      <li class="r-padding-half"><a href="{{href}}">{{text}}</a>
+       {{#ifequal levels 'two'}}
+          <ul class="vertical menu">
+            {{#each sub}}
+              <li><a href="{{subhref}}">{{subtext}}</a></li>
+            {{/each}}
+          </ul>
+        {{/ifequal}}
+      </li>
+      {{/each}}
     <li class="r-padding-half">
       <a href="{{root}}about/">About Us</a>
       <ul class="vertical menu">
