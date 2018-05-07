@@ -7,6 +7,7 @@
 <div class="top-bar" id="example-menu"  data-sticky data-options="anchor:page;marginTop:0;" style="width:100%">
   <div class="top-bar-left">
   <ul class="vertical medium-horizontal menu bg-white" data-responsive-menu="accordion medium-dropdown">
+    <!-- Sample of nav using Panini helpers to loop through .yml file is working, so when implementing, just roll this into the main files and delete the "ex" files. -->
     {{#each global-nav.nav}}
       <li class="r-padding-half"><a href="{{href}}">{{text}}</a>
        {{#ifequal levels 'two'}}
