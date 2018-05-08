@@ -16,7 +16,7 @@ $(document).foundation();
 // });
 
 //function searchTable() {
-  $(document).ready(function(){
+  $(function(){
   $("#searchInput").on("keyup", function() {
     var value = $(this).val().toLowerCase();
     $("#searchTable tr").filter(function() {
@@ -43,3 +43,15 @@ $(document).on('click', 'a[href^="#"]', function(event) {
 });
 // Set the offset when entering page with hash present in the url
 window.setTimeout(offsetAnchor, 0);
+
+// SEARCH
+(function() {
+    var cx = '003667245230004179594:80xs2mushlc';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+// END SEARCH 
