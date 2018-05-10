@@ -1,5 +1,6 @@
 // This and other sheets are imported to app.scss
-/*xxxxxxxxxx       COLOR VARIABLES         xxxxxxxxxx*/
+
+/* xxxxxxxxxx       COLOR VARIABLES         xxxxxxxxxx */
 
 /* MISC Colors */
 $white-white: #fff;
@@ -18,26 +19,41 @@ $iod-red: #990000;
 // $iod-blue: #3a6296;
 // iod home page topstories h1: 535353
 
-.darkest-gray {color: $darkest-gray;}
+// * FOUNDATION Colors *
+// $dark-gray
+
+.darkest-gray { color: $darkest-gray; }
 
 .bg-white {
   background-color: $white-white;
 }
+
 .bg-light {
   background-color: $white;
 }
+
 .bg-dark {
-  background-color: $dark-gray; // $dark-gray is foundation's
+  background-color: lighten($darkest-gray, 55%);
 }
+
+.bg-dark-large {
+  @include breakpoint(large) {
+    background-color: lighten($darkest-gray, 55%);
+  }
+}
+
 .bg-darker {
   background-color: $darkest-gray;
 }
+
 .txt-lightest {
   color: #fcfcfc;
 }
+
 .txt-color-head {
   color: darken($tu-red, 10%);
 }
+
 .bg-lightest-gray {
   background-color: lighten($dark-gray, 40%);
 }
@@ -46,9 +62,9 @@ $iod-red: #990000;
 
 /* REDEFINE Foundation button colors */
 //$foundation-palette: (
-  //primary: #1779ba,
-  //secondary: #767676,
-  //success: #3adb76,
-  //warning: #ffae00,
-  //alert: #cc4b37,
+//primary: #1779ba,
+//secondary: #767676,
+//success: #3adb76,
+//warning: #ffae00,
+//alert: #cc4b37,
 //);
