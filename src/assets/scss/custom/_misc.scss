@@ -25,6 +25,13 @@
   z-index: 1;
 }
 
+.center-small {
+  @include breakpoint(small-only) {
+    // not sure where this was going
+   // justify-content:
+  }
+}
+
 .logo-padding {
   padding-bottom: 10px;
   padding-top: 10px;
@@ -45,12 +52,19 @@
   padding-right: 1rem;
 }
 
-.padding-none { padding:0 !important; }
+.padding-none { padding: 0 !important; }
 .padding-breadcrumbs { padding: 0 1rem 0 1rem; }
 
 .hr-hint { // suggested for underline below a heading, try using alpha etc
   border-bottom: 1px solid #454545;
 }
+
 .hr-slim {
-	margin:0;
+  margin: 0;
 }
+
+// SEARCH, MAY BE A SEPARATE SCSS FILE...
+.gsc-search-box tbody td { padding: 0; }
+.gsc-search-box table tbody { border: 0; background-color: none; }
+form table.gsc-search-box td.gsc-input { padding-right: 0; }
+form .gsc-search-button-v2 { padding: 12px 36px; }
