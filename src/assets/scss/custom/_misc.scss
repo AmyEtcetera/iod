@@ -25,12 +25,12 @@
   z-index: 1;
 }
 
-.center-small {
-  @include breakpoint(small-only) {
+//.center-small {
+  //@include breakpoint(small-only) {
     // not sure where this was going
    // justify-content:
-  }
-}
+  //}
+//}
 
 .logo-padding {
   padding-bottom: 10px;
@@ -68,3 +68,6 @@
 .gsc-search-box table tbody { border: 0; background-color: none; }
 form table.gsc-search-box td.gsc-input { padding-right: 0; }
 form .gsc-search-button-v2 { padding: 12px 36px; }
+table#gs_id50.gstl_50 { margin-bottom: 0; }
+input#gsc-i-id1 { padding: 7px !important; }
+.gsc-input-box { margin-top: 3px; }
