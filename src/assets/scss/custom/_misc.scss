@@ -65,9 +65,15 @@
 
 // SEARCH, MAY BE A SEPARATE SCSS FILE...
 .gsc-search-box tbody td { padding: 0; }
-.gsc-search-box table tbody { border: 0; background-color: none; }
+.gsc-search-box table tbody {
+  border: 0;
+  @include breakpoint(large) {
+    background-color: $light-gray;
+  }
+}
 form table.gsc-search-box td.gsc-input { padding-right: 0; }
 form .gsc-search-button-v2 { padding: 12px 36px; }
 table#gs_id50.gstl_50 { margin-bottom: 0; }
 input#gsc-i-id1 { padding: 7px !important; }
 .gsc-input-box { margin-top: 3px; }
+// table.gsc-search-box tbody { background-color: none; }
