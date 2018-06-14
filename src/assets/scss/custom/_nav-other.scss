@@ -1,6 +1,7 @@
 /* Table of Contents */
 .toc {
   font-size: 0.9rem;
+
   h4 {
     font-size: 1.2rem;
     // might come in handy...
@@ -10,6 +11,7 @@
     //   display: inline-block;
     // }
   }
+
   li > a {
     &::before {
       content: '* ';
