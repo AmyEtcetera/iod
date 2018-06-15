@@ -48,12 +48,20 @@
   padding-right: 1rem;
 }
 
+.l-r-padding-three-unit {
+  @include breakpoint(large) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
 .r-padding-unit {
   padding-right: 1rem;
 }
 
 .padding-none { padding: 0 !important; }
 .padding-breadcrumbs { padding: 0 1rem 0 1rem; }
+.pad-bottom-unit { padding-bottom: 1.6rem;}
 
 .hr-hint { // suggested for underline below a heading, try using alpha etc
   border-bottom: 1px solid #454545;
