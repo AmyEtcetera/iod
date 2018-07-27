@@ -1,0 +1,183 @@
+/*
+   ~~~ cards as seen in DS dashboard cards
+   ~~~ may need significant overhaul for site refactor
+   ~~~ Thanks to mor10 for tutorial
+*/
+
+.ds-centered {
+    margin: 0 auto;
+    padding: 0 1em;
+    background-color: #f6f5f5;;
+}
+
+@media screen and (min-width: 52em) {
+    .ds-centered {
+        max-width: 52em;
+    }
+    .ds-centered.wide {max-width: 100%;}
+}
+
+.ds-card {
+	background: white;
+	margin-bottom: 2em;
+    border-radius: 3px;
+    box-shadow: 0 0 0.2em rgba(0,0,0,0.2);
+}
+.outer {
+    border-radius: 7px;
+}
+
+.ds-card a {
+	border-bottom:0 !important;
+}
+
+/* .card a.outer:hover {
+	box-shadow: 0 0 0.5em rgba(0,0,0,0.2);
+} */
+
+.ds-card a:hover {
+    background-color: #fcfcdd;
+}
+
+.ds-card:hover {
+	box-shadow: 0 0 0.9em rgba(0,0,0,0.2);
+}
+
+.ds-card-content {
+	padding: .6em;
+    overflow: hidden;
+}
+
+.ds-card-content h2 {
+    padding: 0;
+    font-size: 150%;
+	/*font-weight: normal;*/
+}
+
+.heading-cards-title {
+    color: #555 !important;
+    border: none !important;
+    background-image: none !important;
+    font-size: 160% !important;
+    font-weight: normal !important;
+    margin-bottom: .3em;
+    text-align: center;
+}
+
+.ds-card-content p {
+	font-size: 90%;
+    line-height: 1.6em;
+}
+
+.ds-card-content ul {
+    margin-top: .5em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+.ds-card-content li {
+    font-size: 90%;
+    border-bottom: 1px solid #eee;
+    line-height: 1.6em;
+}
+
+.thumbnail {
+    margin: 0;
+    border-top: 10px solid #820010;
+    border-radius: 3px;
+}
+
+
+.thumbnail.card-border-color-1 {
+    border-top: 20px solid #148f77; /* green */
+}
+.thumbnail.card-border-color-2 {
+    border-top: 20px solid #2874a6; /* blue */
+}
+.thumbnail.card-border-color-9 {
+    border-top: 20px solid #76448a; /* violet */
+}
+.thumbnail.card-border-color-4 {
+    border-top: 20px solid #b9770e; /* gold-bronze */
+}
+.thumbnail.card-border-color-5 {
+    border-top: 20px solid #a04000; /* brown-orange */
+}
+.thumbnail.card-border-color-6 {
+    border-top: 20px solid #239b56; /* green 2 */
+}
+.thumbnail.card-border-color-7 {
+    border-top: 20px solid #b03a2e; /* brick */
+}
+.thumbnail.card-border-color-8 {
+    border-top: 20px solid #1f618d; /* blue 2 */
+}
+.thumbnail.card-border-color-3 {
+    border-top: 20px solid #717d7e;  /* grey */
+}
+.thumbnail.card-border-color-11 {
+    border-top: 20px solid #333;  /* almost black */
+}
+.thumbnail.card-border-color-10 {
+    border-top: 20px solid #d4ac0d;  /* gold */
+}
+
+.bg-light {background-color:#f2f4f4;text-align:center;padding:.5em 0;}
+
+/* for IE 9 and 10*/
+ @media screen and (min-width:0\0){
+   /* .ie-limit-img {width:400px;} */
+ }
+
+
+@media screen and (min-width:1100px) {
+    /* orig min-width was in ems */
+    .ds-cards {
+            display:-ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: -1em;
+    }
+
+    .ds-card {
+           /* display:-ms-flexbox;
+            display: flex;
+            -ms-flex: 0 1 calc(50% - .5em);*/
+           /* flex: 0 1 calc(50% - .5em);*/
+           /* orig does not include display:flex, only flex: 0 1 calc(50% -.5em) */
+           /*  use width rather than flex for increased compatibility */
+            width: calc(50% - .5em);
+            margin-bottom: 1em;
+    }
+
+    .ds-card-content p {
+            font-size: 96%;
+    }
+
+    .ds-card-content li {
+            font-size: 96%;
+    }
+
+    .ds-card-content h2 {
+            font-size: 140%;
+            font-weight: normal;
+    }
+}
+
+/*@media screen and (min-width:60em) {
+
+      .ds-cards {
+            margin-top: inherit;
+    }
+
+      .ds-card {
+            -ms-flex: 0 1 calc(33% - 1em);
+            flex: 0 1 calc(33% - 1em);
+
+            margin-bottom: 2em;
+    }
+
+} */
