@@ -45,15 +45,6 @@ staffArray:
     link: "BolliMonica"
     photo: "bolli.jpg"
   -
-    firstname : "Anthony"
-    lastname : "Brown"
-    title : "Coordinator of Academic Relations, Academy for Adult Learning"
-    email : "anthony.brown0001@temple.edu"
-    phone : "215-204-7177"
-    bio : Mr. Brown is the Academic Relations Coordinator of the Academy for Adult Learning. He is responsible for leading the team of faculty, students and other ancillary professionals in developing an appropriate accommodation plan for each student auditing undergraduate and continuing education courses. Mr. Brown acts as the lead liaison with faculty in placing Academy students in undergraduate courses that match their interests and abilities. Mr. Brown has a Masters Degree in Education from Eastern University.
-    link: "BrownAnthony"
-    photo: "brown.jpg"
-  -
     firstname : "Guy"
     lastname : "Caruso"
     title : "Coordinator of UCEDD West"
