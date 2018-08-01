@@ -21,6 +21,7 @@ $iod-red: #990000;
 
 // * FOUNDATION Colors *
 // $dark-gray
+$lightest-gray: lighten($dark-gray, 40%);
 
 .darkest-gray { color: $darkest-gray; }
 
@@ -55,7 +56,8 @@ $iod-red: #990000;
 }
 
 .bg-lightest-gray {
-  background-color: lighten($dark-gray, 40%);
+  // background-color: lighten($dark-gray, 40%);
+  background-color: $lightest-gray;
 }
 // REDEFINE Foundation dropdown menu triangle
 // $dropdownmenu-arrow-color: $white-white;
