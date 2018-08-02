@@ -20,27 +20,28 @@
 */
 
 .iod-card { // div, wraps around .outer
-    background: white;
+    background: $white-white;
 	  margin-bottom: 2em;
     border-radius: 3px;
     box-shadow: 0 0 0.2em rgba(0,0,0,0.2);
+    a {
+      border-bottom: 0 !important;
+    }
+    a:hover {
+      background-color: #fcfcdd;
+    }
+    &:hover {
+      box-shadow: 0 0 0.9em rgba(0,0,0,0.2);
+    }
 }
 
 .outer { // wraps around figure and content
     border-radius: 7px;
 }
 
-.iod-card a {
-	border-bottom: 0 !important;
-}
-
-.iod-card a:hover {
-    background-color: #fcfcdd;
-}
-
-.iod-card:hover {
-	box-shadow: 0 0 0.9em rgba(0,0,0,0.2);
-}
+.iod-card a { }
+.iod-card a:hover { }
+.iod-card:hover { }
 
 .iod-card-content {
 	padding: .6em;
@@ -131,13 +132,13 @@
             margin-bottom: 1em;
     }
 
-    .iod-card-content p {
+    //.iod-card-content p {
           //  font-size: 96%;
-    }
+    //}
 
-    .iod-card-content li {
+    //.iod-card-content li {
           //  font-size: 96%;
-    }
+    //}
 
     .iod-card-content h2 {
           //  font-size: 140%;
