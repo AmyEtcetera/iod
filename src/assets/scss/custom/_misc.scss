@@ -71,6 +71,26 @@
   margin: 0;
 }
 
+// Show only for screen reader...
+// Use case would be a Read More link followed by span.screen-reader-only with additional text
+.screen-reader-only {
+	/*
+	via Rian Rietveld. https://rianrietveld.com/2015/04/04/the-screen-reader-text-class-why-and-how/
+	Visually hide text meant only for screen readers. Does not include tab navigation focus.
+	EX: <p><a href="link.html">Read more <span>about the full-day sessions and access registration</span></a></p>
+	*/
+	  border: 0;
+	  clip: rect(1px, 1px, 1px, 1px);
+	  clip-path: inset(50%);
+	  height: 1px;
+	  margin: -1px;
+	  overflow: hidden;
+	  padding: 0;
+	  position: absolute !important;
+	  width: 1px;
+	  word-wrap: normal !important;
+}
+.screen-reader-only a:focus {clip: auto; height:50px; width:100px;border: 5px solid red; overflow: visible;}
 // SEARCH, MAY BE A SEPARATE SCSS FILE...
 .gsc-search-box tbody td { padding: 0; }
 
@@ -80,7 +100,6 @@
     background-color: $light-gray;
   }
 }
-
 // Move to _settings-overrides?
 form table.gsc-search-box td.gsc-input { padding-right: 0; }
 form .gsc-search-button-v2 { padding: 12px 36px; }

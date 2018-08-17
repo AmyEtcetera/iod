@@ -26,6 +26,7 @@
 // Make it light or dark
 .top-bar {
   border-top: 2px solid $tu-red;
+  background-color: $tu-black;
   //box-shadow: 0 4px 4px -3px #333;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   //background-color: $white-white;  // likely unused, candidate for deletion
