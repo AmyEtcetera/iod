@@ -5,6 +5,10 @@ td.bg-darker {
   }
 }
 
+.breadcrumbs a {
+  color: darken($iod-blue, 10%);
+  text-decoration: underline;
+}
 // .show-on-focus {
 //  TK
 // }
