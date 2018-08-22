@@ -3,27 +3,32 @@
 /* xxxxxxxxxx       COLOR VARIABLES         xxxxxxxxxx */
 
 /* MISC Colors */
-$white-white: #fff;
+$white-white: #fff; // foundation white is different
 $darkest-gray: #333;
 $blacker-black: #0a0a0a;
 
 /* TU Colors */
-$tu-black: #222;
-$tu-red: #a41e35;
-$tu-gray: #899197;
-$tu-bright-blue-accent: #6ec4e8;
+$tu-black: #222; // current, aka Charcoal
+$tu-blacker: #0e1014; // current, aka Temple Black
+$tu-red: #a41e35; // current, aka Temple Cherry
+$tu-bright-cherry: #e21926; // current, aka Bright Cherry Red
+$tu-gray: #899197; // current, aka Slate
+$tu-bright-blue-accent: #6ec4e8; // legacy
+$tu-gold: #fcb426;
+$tu-purple: #9c268f;
+$tu-olive-drab: #749715;
+$tu-sea-green: #1a9682;
+$tu-sky-blue: #1378dd; // current, reserved use
+$tu-alert-yellow: #ffdd00; // current, reserved use
 
 /* IOD Colors */
 $iod-blue: #2a659a;
 $iod-red: #990000;
 // $iod-blue: #3a6296;
-// iod home page topstories h1: 535353
 
-// * FOUNDATION Colors *
+/* FOUNDATION Colors */
 // $dark-gray
 $lightest-gray: lighten($dark-gray, 40%);
-
-.darkest-gray { color: $darkest-gray; }
 
 .bg-white {
   background-color: $white-white;
@@ -47,17 +52,19 @@ $lightest-gray: lighten($dark-gray, 40%);
   background-color: $darkest-gray;
 }
 
+.bg-lightest-gray {
+  // background-color: lighten($dark-gray, 40%);
+  background-color: $lightest-gray;
+}
+
+.darkest-gray { color: $darkest-gray; }
+
 .txt-lightest {
   color: #fcfcfc;
 }
 
 .txt-color-head {
   color: darken($tu-red, 10%);
-}
-
-.bg-lightest-gray {
-  // background-color: lighten($dark-gray, 40%);
-  background-color: $lightest-gray;
 }
 // REDEFINE Foundation dropdown menu triangle
 // $dropdownmenu-arrow-color: $white-white;
