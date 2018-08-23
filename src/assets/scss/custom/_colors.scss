@@ -20,12 +20,18 @@ $tu-olive-drab: #749715;
 $tu-sea-green: #1a9682;
 $tu-sky-blue: #1378dd; // current, reserved use
 $tu-alert-yellow: #ffdd00; // current, reserved use
+// TU Colors applied to Foundation palette:
+$tu-secondary: #899197;
+$tu-success: #c1d62e;
+$tu-warning: #fcb426;
+$tu-alert: #e21926;
+.callout.warning {background-color: lighten($tu-warning, 35%);}//move this to different file
 
 /* IOD Colors */
 $iod-blue: #2a659a;
 $iod-red: #990000;
 // $iod-blue: #3a6296;
-
+$iod-primary: $iod-blue;
 /* FOUNDATION Colors */
 // $dark-gray
 $lightest-gray: lighten($dark-gray, 40%);
@@ -71,9 +77,9 @@ $lightest-gray: lighten($dark-gray, 40%);
 
 /* REDEFINE Foundation button colors */
 //$foundation-palette: (
-//primary: #1779ba,
-//secondary: #767676,
-//success: #3adb76,
-//warning: #ffae00,
-//alert: #cc4b37,
+//  primary: #2a659a,
+//  secondary: #899197,
+//  success: #c1d62e,
+//  warning: #fcb426,
+//  alert: #e21926,
 //);

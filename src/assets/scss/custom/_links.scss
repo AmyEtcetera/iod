@@ -5,9 +5,16 @@ td.bg-darker {
   }
 }
 
-.breadcrumbs a {
-  color: darken($iod-blue, 10%);
-  text-decoration: underline;
+.breadcrumbs {
+  a {
+    color: darken($iod-blue, 10%);
+    &:link, &:visited {
+    text-decoration: underline;
+    }
+    &:hover, &:active {
+      text-decoration: none;
+    }
+  }
 }
 // .show-on-focus {
 //  TK

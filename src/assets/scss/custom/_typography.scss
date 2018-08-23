@@ -22,10 +22,18 @@ h1, h2, h3, h4, h5, h6 {
 .header-font-size {
   font-size: 2.5rem;
 }
+.base-font-size {
+  font-size: 1rem;
+}
 .header-line-ht {
   line-height: 2.2rem;
 }
-
+.body-font-family {
+  font-family: $font-stack-text;
+}
+.display-font-family {
+  font-family: $font-stack-display2;
+}
 main {
   p, ul, ol {
     @include breakpoint(small) {
@@ -64,6 +72,7 @@ main {
 //   line-height: 1.6;
 //   text-rendering: optimizeLegibility; }
 
+// Isn't lead already a class that's musch simpler? This should probably extend lead instead of overwriting it.
 .lead, .feature-lead {
   @include breakpoint(small) {
     font-family: $font-stack-display;
@@ -101,7 +110,7 @@ main {
         bottom: -20px;
         border-bottom: 5px solid $tu-bright-blue-accent;
     }
-
+// Should be using rems
 .footer-links {
   font-size: 88%;
   li { border-bottom: 1px dashed #454545; }
