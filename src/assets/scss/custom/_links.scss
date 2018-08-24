@@ -16,6 +16,26 @@ td.bg-darker {
     }
   }
 }
+
+.link-simple {
+  text-decoration: none;
+  &:link, &:visited {
+    color: $tu-black;
+  }
+  &:hover, &:active {
+    color: $tu-red;
+  }
+}
+
+.link-simple-pop {
+  text-decoration: none;
+  &:link, &:visited {
+    color: $tu-black;
+  }
+  &:hover, &:active {
+    color: $iod-blue;
+  }
+}
 // .show-on-focus {
 //  TK
 // }
