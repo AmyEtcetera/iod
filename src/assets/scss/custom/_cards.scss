@@ -156,3 +156,33 @@
           margin-bottom: 2em;
     }
 } */
+
+
+
+/* NEWS PAGE WIDE ARTICLES */
+.media-object-section {
+  .thumbnail {
+    border: 0;
+    box-shadow: none;
+    img {
+      border-radius: 2px;
+    }
+  }
+}
+
+.news-dateline {
+  font-size: 1rem;
+  font-style: italic;
+}
+.read-more {
+
+}
+
+.wide-article-link {
+  background-color: $white;
+  padding: 1rem 1rem 0.5rem;
+  border: 1px solid $medium-gray;
+  // border-radius: 2px;
+  margin-bottom: 1rem;
+}
+/* END NEWS PAGE WIDE ARTICLES */

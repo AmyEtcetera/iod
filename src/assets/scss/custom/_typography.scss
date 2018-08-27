@@ -129,6 +129,9 @@ footer {
 .smaller-text-60 {
   font-size: 60%;
 }
+.smaller-text-85 {
+  font-size: 85%;
+}
 .smaller-text-90 {
    @include breakpoint(medium) {font-size: 90%;}
 }

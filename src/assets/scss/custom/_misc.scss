@@ -62,7 +62,9 @@
 .padding-none { padding: 0 !important; }
 .padding-breadcrumbs { padding: 0 1rem 0 1rem; }
 .pad-bottom-unit { padding-bottom: 1.6rem;}
-
+.margin-bottom-none {
+  margin-bottom: 0;
+}
 .hr-hint { // suggested for underline below a heading, try using alpha etc
   border-bottom: 1px solid #454545;
 }
