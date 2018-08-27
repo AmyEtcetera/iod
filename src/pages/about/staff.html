@@ -39,8 +39,10 @@ bg-gray: true
 		<article class="">
       <h3 class="h5">Staff List</h3>
       <div class="callout primary">
-      <p>Type below to search names, titles, or emails:</p>
-      <input id="searchInput" type="text" placeholder="Search..">
+      <!--<p>Type below to search names, titles, or emails:</p>
+      <input id="searchInput" type="text" placeholder="Search..">-->
+      <p aria-hidden="true"><label for="searchInput" class="base-font-size">Type below to search names, titles, or emails:</label>
+        <input id="searchInput" type="search" placeholder="Search.." role="search"></p>
       </div>
       <table class="stack hover">
         <legend class="sr-only"> IOD Staff Directory</legend>
