@@ -116,6 +116,7 @@ main {
         border-bottom: 5px solid $tu-gold;
     }
 // Should be using rems
+// move to _links.scss?
 .footer-links {
   font-size: 88%;
   li { border-bottom: 1px dashed #454545; }

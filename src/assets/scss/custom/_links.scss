@@ -22,7 +22,7 @@ td.bg-darker {
   &:link, &:visited {
     color: $tu-black;
   }
-  &:hover, &:active {
+  &:hover, &:active, &:focus {
     color: $tu-red;
   }
 }
