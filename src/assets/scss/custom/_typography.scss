@@ -76,8 +76,8 @@ main {
 .lead, .feature-lead {
   @include breakpoint(small) {
     font-family: $font-stack-display;
-    font-size: 1.728rem;
-    line-height: 1.6;
+    font-size: 1.44rem;
+    line-height: 1.4;
     position: relative; // for the pseudo content border
     margin-bottom: 40px; // for the pseudo content border
     //color: white;
