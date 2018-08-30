@@ -14,6 +14,25 @@ $(document).foundation();
 // $(function(){
 //      $("p").css("border", "3px solid blue");
 // });
+$(".btn-expander").click(function(){
+  let pointerRight = 'fa-caret-square-right';
+  let pointerDown = 'fa-caret-square-down';
+  // console.log(this);
+  if($(this).children('span').hasClass(pointerRight)) {
+    $(this).children('span').removeClass(pointerRight).addClass(pointerDown);
+    $(this).parent().siblings('div').removeClass('hide-section').addClass('show-section');
+  // toggle aria-hidden...
+    $(this).parent().siblings('div').attr('aria-hidden', false);
+    $(this).attr('aria-expanded', 'true');
+  } else {
+    $(this).children('span').removeClass(pointerDown).addClass(pointerRight);
+    $(this).parent().siblings('div').removeClass('show-section').addClass('hide-section');
+    $(this).parent().siblings('div').attr('aria-hidden', true);
+    $(this).attr('aria-expanded', 'false');
+  }
+});
+
+
 
 //function searchTable() {
   $(function(){
@@ -54,4 +73,4 @@ window.setTimeout(offsetAnchor, 0);
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(gcse, s);
   })();
-// END SEARCH 
+// END SEARCH
