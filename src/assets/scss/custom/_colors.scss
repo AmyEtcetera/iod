@@ -21,10 +21,10 @@ $tu-sea-green: #1a9682;
 $tu-sky-blue: #1378dd; // current, reserved use
 $tu-alert-yellow: #ffdd00; // current, reserved use
 // TU Colors applied to Foundation palette:
-$tu-secondary: #899197;
-$tu-success: #c1d62e;
-$tu-warning: #fcb426;
-$tu-alert: #e21926;
+$tu-secondary: $tu-gray;
+$tu-success: darken($tu-olive-drab, 6%);
+$tu-warning: $tu-gold;
+$tu-alert: $tu-bright-cherry;
 .callout.warning {background-color: lighten($tu-warning, 35%);}//move this to different file
 
 /* IOD Colors */

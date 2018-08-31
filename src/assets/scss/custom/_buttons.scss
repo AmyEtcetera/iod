@@ -1,18 +1,43 @@
 // This and other sheets are imported to app.scss
-// button styles will be here
 
 .button.primary {
-    background-color: $iod-blue;
+  // requires hover colors etc.
+    background-color: $iod-primary;
     border-radius: 3px;
+    color: $white;
+    &:hover, &:active {
+      background-color: darken($iod-primary, 3%);
+      text-decoration: underline;
     }
+  }
 .button.secondary {
-    background-color: $tu-gray;
+    background-color: darken($tu-secondary, 12%);
     border-radius: 3px;
+    color: $white;
+    &:hover, &:active {
+      background-color: darken($tu-secondary, 16%);
+      text-decoration: underline;
     }
+  }
 .button.warning {
-    background-color: $tu-red;
+    background-color: $tu-warning;
     border-radius: 3px;
+    color: $tu-black;
+    &:hover, &:active {
+      background-color: darken($tu-warning, 9%);
+      text-decoration: underline;
     }
+  }
+.button.success {
+  background-color: $tu-success;
+  border-radius: 3px;
+  color: $white;
+  &:hover, &:active {
+    background-color: darken($tu-success, 3%);
+    color: $white;
+    text-decoration: underline;
+  }
+}
     //success: #3adb76,
     //warning: #ffae00,
     //alert: #cc4b37,
