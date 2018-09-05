@@ -1,14 +1,14 @@
-{{#each staff-list-full.staffArray}}
 <tbody id="searchTable">
-<tr class="">
-  <!--<td width="20%"><a href="#{{link}}"><strong>{{firstname}} {{lastname}}</strong></a></td>
-  <td width="35%">{{title}}</td>
-  <td width="20%">{{phone}}</td>
-  <td width="25%"><a href="mailto:{{email}}">{{email}}</a></td>-->
-  <td class="bg-darker"><a href="#{{link}}" class="txt-lightest">{{firstname}} {{lastname}} <em>read bio</em> <i class="fa fa-arrow-circle-right"></i></a></td>
-  <td>{{title}}</td>
-  <td><i class="fa fa-phone-square"></i> {{phone}}</td>
-  <td><i class="fa fa-envelope"></i> <a href="mailto:{{email}}">{{email}}</a></td>
-</tr>
+  {{#each staff-list-full.staffArray}}
+  <tr class="">
+    <!--<td width="20%"><a href="#{{link}}"><strong>{{firstname}} {{lastname}}</strong></a></td>
+    <td width="35%">{{title}}</td>
+    <td width="20%">{{phone}}</td>
+    <td width="25%"><a href="mailto:{{email}}">{{email}}</a></td>-->
+    <td class="bg-darker"><a href="#{{link}}" class="txt-lightest"><span class="h5">{{firstname}} {{lastname}}</span><br><em>read bio</em> <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a></td>
+    <td>{{title}}</td>
+    <td><span style="white-space: nowrap"><i class="fa fa-phone-square"></i> {{phone}}</span></td>
+    <td><i class="fa fa-envelope"></i> <a href="mailto:{{email}}">{{email}}</a></td>
+  </tr>
+  {{/each}}
 </tbody>
-{{/each}}
