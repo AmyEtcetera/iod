@@ -21,6 +21,11 @@
 
 .dropdown .is-dropdown-submenu a {
   border-bottom: 1px solid $blacker-black;
+  padding: 0.7rem 1rem !important;
+}
+
+.dropdown.menu a {
+    padding: 1rem 1rem .9rem 1rem;
 }
 
 // Make it light or dark
@@ -38,8 +43,13 @@
     // note if empty first li is removed another class will be needed for border-left
     li {
       border-right: 1px solid $blacker-black;
+      // NEW!!!!!
+      border-bottom: 3px solid $tu-black;
       padding-right: 0.5rem;
-      li {border-right: none;}
+      li {
+        border-right: none;
+        border-bottom: none;
+      }
     }
     a {
       color: #fcfcfc;
@@ -64,6 +74,10 @@
 .title-bar-title {
   padding-left: 5px;
   text-transform: capitalize;
+}
+
+.menu .tab-is-active-accent {
+  border-bottom: 3px solid $tu-gold;
 }
 
 // Using a mixin to customize

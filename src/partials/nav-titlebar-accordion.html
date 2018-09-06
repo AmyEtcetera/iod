@@ -6,9 +6,10 @@
 
 <div class="top-bar" id="example-menu" data-sticky data-options="anchor:page; marginTop:0;" style="width:100%">
   <div class="top-bar-left">
-  <ul class="vertical medium-horizontal menu bg-white" data-responsive-menu="accordion medium-dropdown">
+  <ul class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown">
     <!--<li class="menu-text"><img src="https://www.temple.edu/instituteondisabilities/images/tuid.jpg" alt="Logo, Temple University Institute on Disabilities" width="180px">--><!--Institute on Disabilities</li>-->
-    <li class="r-padding-half">
+  <!--  <li class="r-padding-half">-->
+    <li class="{{#ifequal category 'about'}}tab-is-active-accent{{/ifequal}}">
       <a href="{{root}}about/">About Us</a>
       <ul class="vertical menu">
         <li><a href="{{root}}news/">News</a>
@@ -19,7 +20,7 @@
         <li><a href="{{root}}donate/">Giving</a></li>
       </ul>
     </li>
-    <li class="r-padding-half">
+    <li class="">
       <a href="https://disabilities.temple.edu/programs/">Programs</a>
       <ul class="vertical menu">
         <li><a href="https://disabilities.temple.edu/advocacy/">Advocacy</a></li>
@@ -30,7 +31,7 @@
         <li><a href="https://disabilities.temple.edu/programs/">All Programs</a></li>
       </ul>
     </li>
-    <li class="r-padding-half">
+    <li class="">
       <a href="#">Training and Events</a>
       <ul class="vertical menu">
         <li><a href="https://disabilities.temple.edu/cal/">Calendar</a></li>
@@ -38,7 +39,7 @@
         <li><a href="https://disabilities.temple.edu/programs/technical/">Technical Assistance</a></li>
       </ul>
     </li>
-    <li class="r-padding-half">
+    <li class="">
       <a href="https://disabilities.temple.edu/resources/">Resources</a>
       <ul class="vertical menu">
         <li><a href="https://disabilities.temple.edu/publications/">Publications</a></li>
