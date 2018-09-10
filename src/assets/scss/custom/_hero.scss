@@ -79,3 +79,6 @@
 .feature-item-training {
   @include feature-img("../img/feature/2018-perry-0056.jpg", "right top", 450px, 400px);
 }
+.feature-item-resources {
+  @include feature-img("../img/feature/tu-window-gry.jpg");
+}
