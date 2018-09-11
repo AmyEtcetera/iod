@@ -35,6 +35,7 @@ $iod-primary: $iod-blue;
 /* FOUNDATION Colors */
 // $dark-gray
 $lightest-gray: lighten($dark-gray, 40%);
+$light-light-gray: lighten($tu-gray, 40%);
 
 .bg-white {
   background-color: $white-white;

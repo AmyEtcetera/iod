@@ -1,35 +1,38 @@
 .section-expandable {
   margin-bottom: 2em;
   h2, h3 {
-    background-color: $lightest-gray; // #eee;
+    background-color: $light-light-gray; // #eee;
     color: $tu-black; // #333;
     margin-bottom: 0;
     padding: 1rem;
     width: 100%;
-    border: 3px solid #1a9682; // #a7c2ac;
+    // border: 3px solid #1a9682;
+    // border: 3px solid $iod-blue;
     border-radius: 3px;
   }
   div {
     width: 100%;
     padding: 1rem;
-    background-color: $lightest-gray; //#f0f0f0;
-    border: 3px solid $lightest-gray; //#f0f0f0;
+    background-color: #fdfdfd;
+    // border: 3px solid $lightest-gray;
   }
   p {
     width: 100%;
-    background-color: $lightest-gray; //#f0f0f0;
-    border: 3px solid $lightest-gray; //#f0f0f0;
+    background-color: #fdfdfd;
+    // border: 3px solid $light-light-gray;
     margin-top: 0;
   }
+  // li that has a child that's a span..., no list bullet
 }
 
 .btn-expander { /* button styles */
   font-size: 1.6rem;
-  background-color: $lightest-gray; // #eee; // It went rogue without a color here
+  background-color: $light-light-gray; // #eee; // It went rogue without a color here
   border: none;
   padding: 1rem 0;
   .fas {
-    color: #1a9682;
+    //color: #1a9682;
+    color: $iod-blue;
   }
 }
 
