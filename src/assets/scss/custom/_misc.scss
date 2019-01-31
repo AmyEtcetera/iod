@@ -25,12 +25,11 @@
   z-index: 1;
 }
 
-//.center-small {
-//@include breakpoint(small-only) {
-// not sure where this was going
-// justify-content:
-//}
-//}
+.small-text-center {
+  @include breakpoint(small only) {
+    text-align: center;
+  }
+}
 
 .logo-padding {
   padding-bottom: 10px;
