@@ -34,4 +34,7 @@
 // Too much space between breadcrumbs and horiz rule that follows...
 .breadcrumbs {
   margin: 0.6rem 0 0.5rem;
+  li {
+    font-size: 0.8rem;
+  }
 }
