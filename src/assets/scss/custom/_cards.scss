@@ -112,7 +112,7 @@
  }
 
 // @media screen and (min-width: 800px) {
- @media screen and (min-width: 1100px) {
+ @media screen and (min-width: 780px) {
     /* orig min-width was in ems */
     .iod-cards {
             display: flex;
@@ -128,7 +128,7 @@
            /* flex: 0 1 calc(50% - .5em); */
            /* orig does not include display:flex, only flex: 0 1 calc(50% -.5em) */
            /*  use width rather than flex for increased compatibility */
-            width: calc(50% - .5em);
+            width: calc(33% - .5em); // try width: calc(33% - .5em) or width: calc(50% - .5em)
             margin-bottom: 1em;
     }
 
