@@ -1,7 +1,6 @@
 <h3>Staff Bios</h3>
 <dl>{{#each staff-list-full.staffArray}}
-<dt id="{{link}}"><strong>{{firstname}} {{lastname}}, {{title}}</strong></dt><dd><img src="../assets/img/photo/staff/{{photo}}" class="float-staff-img" alt="{{firstname}} {{lastname}}" width="58px" height="68px">{{bio}} {{bio-pt2}} {{bio-pt3}}</dd>
-<hr>
+<dt id="{{link}}"><strong>{{firstname}} {{lastname}}, {{title}}</strong></dt><dd><img src="../assets/img/photo/staff/{{photo}}" class="float-staff-img" alt="{{firstname}} {{lastname}}" width="58px" height="68px">{{bio}} {{bio-pt2}} {{bio-pt3}}<hr></dd>
 {{/each}}
 </dl>
 <!--<p>Call one value of json file: {{staff-list.staffArray.0.title}}</p>-->
