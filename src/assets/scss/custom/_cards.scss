@@ -173,16 +173,28 @@
 .news-dateline {
   font-size: 1rem;
   font-style: italic;
+  text-align: right;
+    @include breakpoint(small only) {
+      text-align: left;
+    }
 }
-.read-more {
 
-}
+.read-more {  }
 
-.wide-article-link {
+.wide-article-link-disabled {
   background-color: $white;
   padding: 1rem 1rem 0.5rem;
   border: 1px solid $medium-gray;
-  // border-radius: 2px;
   margin-bottom: 1rem;
+}
+.news-item {
+  background-color: $white;
+  padding: 1rem 1rem 0.5rem;
+  border: 1px solid $medium-gray;
+  margin-bottom: 1rem;
+  flex-wrap: wrap-reverse;
+  .media-object {
+    margin-bottom: 0;
+  }
 }
 /* END NEWS PAGE WIDE ARTICLES */
