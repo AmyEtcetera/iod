@@ -10,6 +10,18 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-stack-display2;
 }
+
+cite {
+    display: inline;
+    font-size: inherit;
+    color: inherit;
+    font-weight: inherit;
+}
+
+cite::before {
+    content: "";
+}
+
 .narrow-site-title {
   font-family: $font-stack-display;
   font-weight: 400;
