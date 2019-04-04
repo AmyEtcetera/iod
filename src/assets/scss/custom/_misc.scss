@@ -102,3 +102,11 @@ form .gsc-search-button-v2 { padding: 12px 36px; }
 table#gs_id50.gstl_50 { margin-bottom: 0; }
 input#gsc-i-id1 { padding: 7px !important; }
 .gsc-input-box { margin-top: 3px; }
+
+// Validation for search requires visible label:
+.label-search {
+  padding-top: 1em;
+  padding-right: .3em;
+  color: $darkest-gray;
+  font-style: oblique;
+}
