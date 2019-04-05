@@ -85,3 +85,19 @@
 .menu-icon {
   @include hamburger($white-white, $light-gray, 24px, 20px, 2px, 3);
 }
+
+// Addressing FOUC related to top-bar and title-bar:
+// Add CSS to improve display where styles injected by JS aren't available before JS loads.
+// See: https://foundation.zurb.com/sites/docs/responsive-navigation.html#preventing-fouc
+.no-js {
+  @include breakpoint(small only) {
+    .top-bar {
+      display: none;
+    }
+  }
+  @include breakpoint(medium) {
+    .title-bar {
+      display: none;
+    }
+  }
+}
