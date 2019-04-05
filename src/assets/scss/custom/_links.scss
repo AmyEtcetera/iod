@@ -39,3 +39,13 @@ td.bg-darker {
 // .show-on-focus {
 //  TK
 // }
+
+.link-darker {
+  text-decoration: underline;
+  &:link, &:visited {
+    color: darken($iod-blue, 10%);
+  }
+  &:hover, &:active {
+    color: darken($iod-blue, 30%);
+  }
+}
