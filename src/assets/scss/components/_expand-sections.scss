@@ -30,9 +30,15 @@
   background-color: $light-light-gray; // #eee; // It went rogue without a color here
   border: none;
   padding: 1rem 0;
+  text-align: left;
+  line-height: 2rem;
+  transition: 0.3s;
   .fas {
     //color: #1a9682;
     color: $iod-blue;
+  }
+  &:hover, &:active {
+    color: $iod-primary;
   }
 }
 
