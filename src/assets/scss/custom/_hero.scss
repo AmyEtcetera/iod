@@ -1,8 +1,8 @@
 // This and other sheets are imported to app.scss
 
+/*
 .hero {
   background-color: $medium-gray;
-  // background-image: url("http://via.placeholder.com/1200x400/c0c0c0");
   background-image: url("../img/feature/flashy-phone-3000x.jpg");
   padding: 50px 0.9375rem 50px 0.9375rem;
     .deck {
@@ -13,6 +13,7 @@
       padding:10px;
     }
 }
+*/
 
 @mixin feature-img ($img, $position: center center, $heightsm: 600px, $heightlg: 500px) {
     @include breakpoint(small only) { // foundation breakpoint mixin
@@ -20,8 +21,7 @@
     rgba(0,0,0,.1),
     rgba(0,0,0,.1)),
     url($img);
-    background-repeat: no-repeat;
-    background-position: $position;
+    //background-position: $position;
     background-size: cover;
     height: $heightsm;
     }
@@ -30,11 +30,12 @@
     rgba(0,0,0,.1),
     rgba(0,0,0,.1)),
     url($img);
-    background-repeat: no-repeat;
-    background-position: $position;
+    //background-position: $position;
     background-size: cover;
     height: $heightlg;
     }
+    background-repeat: no-repeat;
+    background-position: $position;
 }
 
 .feature-bg {
@@ -71,7 +72,6 @@
 }
 .feature-item {
   @include feature-img("../img/feature/flashy-phone-3000x.jpg", "right top", 590px, 490px);
-  // @include feature-img("../img/feature/flashy-phone-3000x.jpg");
 }
 .feature-item-vision {
   @include feature-img("../img/feature/sean-col-3000x.jpg", "right top", 450px, 400px);
@@ -80,5 +80,5 @@
   @include feature-img("../img/feature/2018-perry-0056.jpg", "right top", 450px, 400px);
 }
 .feature-item-resources {
-  @include feature-img("../img/feature/tu-window-gry.jpg");
+  @include feature-img("../img/feature/tu-window-gry.jpg", "right top", 400px, 400px);
 }
