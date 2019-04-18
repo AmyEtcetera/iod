@@ -5,16 +5,25 @@ staffArray:
     title : "Coordinator of Student Supports"
     email : "jack.badger@temple.edu"
     phone : "215-204-3031"
-    bio : Mr. Badger is the Coordinator of Student Supports for the Leadership & Career Studies program, overseeing its mentoring and internship components while ensuring that each student is provided with the necessary supports to fulfill their academic, career-oriented, and social goals. Since graduating from Temple University in 2010 with a BA in Psychology and prior to joining the Institute in 2013, Jack worked as an Employment Specialist in Doylestown, PA, alongside adults with disabilities throughout Bucks County, and spent a year teaching English as a Foreign Language in the city of Changsha, Hunan Province, China.
+    bio : Mr. Badger is the Coordinator of Student Supports for the Leadership & Career Studies program, overseeing its Coach and Internship components while ensuring that each student is provided with the necessary supports to fulfill their academic, career-oriented, and social goals. Since graduating from Temple University in 2010 with a BA in Psychology and prior to joining the Institute in 2013, Jack worked as an Employment Specialist in Doylestown, PA, alongside adults with disabilities throughout Bucks County, and spent a year teaching English as a Foreign Language in the city of Changsha, Hunan Province, China.
     link: "BadgerJohn"
     photo: "badger.jpg"
+  -
+    firstname : "Julia"
+    lastname : "Barol"
+    title : "Employment and Transition"
+    email : "julia.barol@temple.edu"
+    phone : "215-204-6476"
+    bio : Julia Barol works on issues relating to employment of people with disabilities as well as transition from school to work. Julia is president of the Pennsylvania chapter of APSE (Association of People Supporting Employment First) and has been working to advance Employment First here in Pennsylvania. She serves as the delegate to the national APSE Board of Directors representing the Mid-Atlantic states. She was awarded the 2017 CESP of the Year by APSE for her work in the development of the CESP (Certified Employment Support Professional) credential in Pennsylvania.
+    link: "BarolJulia"
+    photo: "blank.jpg"
   -
     firstname : "Denise"
     lastname : "Beckett"
     title : "Project Coordinator"
     email : "denise.beckett@temple.edu"
     phone : "215-204-4979"
-    bio : Ms. Beckett is the Community Services Project Associate, responsible for researching best practices in community board inclusion; organizing advisory committees, work groups and statewide trainings; and assisting in monitoring project subcontractors in the delivery of trainings to generic boards in order to include individuals with disabilities. Prior to joining the Institute, Denise served as the admissions administrator at a private academy. Ms. Beckett earned a master's degree in Advanced Theology from Chesapeake Seminary.
+    bio : As Coordinator of Logistics and Projects, Ms. Beckett maintains and monitors logistics for various projects including, but not limited to, Leadership and Career Studies, C2P2/EI and C2P2/Family Leadership programs, Person Driven Services and Supports. Prior to joining the Institute, Denise served as the admissions administrator at a private academy. Ms. Beckett earned a Master's Degree in Advanced Theology from Chesapeake Seminary, MD.
     link: "BeckettDenise"
     photo: "beckettSsz.jpg"
   -
@@ -23,7 +32,7 @@ staffArray:
     title : "Program Coordinator, Academy for Adult Learning; Assistant Coordinator, Supported Leadership"
     email : "Tboddi01@temple.edu"
     phone : "215-204-3916"
-    bio : Ms. Boddie is the Project Manager of the Academy for Adult Learning (AAL) and is responsible for overseeing the day to day operations of AAL. Titania serves as the primary instructor of the AAL seminar for both freshmen and seniors. Her essential functions include developing curricula, policies and procedures, presenting at city and state-wide events as well as planning and organizing events. In addition, Titania has worked with the Philadelphia Mental Health Center and Philadelphia School District supporting people with disabilities. She earned her Bachelor's Degree in Elementary/Early Childhood Education at Temple University and is currently pursuing a Master's Degree through the Adult Organizational Development program, College of Education at Temple University.
+    bio : Ms. Boddie is the Project Manager of Leadership &amp; Career Studies. Her essential functions include developing curricula, policies and procedures, presenting at city and state-wide events as well as planning and organizing events. In addition, Titania has worked with the Philadelphia Mental Health Center and Philadelphia School District supporting people with disabilities. She earned her Bachelor's Degree in Elementary/Early Childhood Education at Temple University and is currently pursuing a Master's Degree through the Adult Organizational Development program, College of Education at Temple University.
     link: "BoddieTitania"
     photo: "boddie.jpg"
   -
@@ -44,6 +53,15 @@ staffArray:
     bio : As Office Manager, Ms. Bolli is responsible for the daily administrative operations in the Institute's main office. In addition, she works with several Institute programs including C2P2 Early Intervention and Families First. Before coming to the Institute, Monica spent more than 20 years in the consulting field at United Professional Plans Inc., a benefit design firm.
     link: "BolliMonica"
     photo: "bolli.jpg"
+  -
+    firstname : "Laura"
+    lastname : "Cantagallo"
+    title : "Assistive Technology Specialist and Outreach Coordinator"
+    email : "laura.cantagallo.edu"
+    phone : "215-204-5097"
+    bio : As an Assistive Technology Specialist for the Insitute and the Outreach Coordinator for the free special phone program, Ms. Cantagallo is responsible for providing assistive technology demonstrations, technical assistance, and information to Pennsylvania residents. Prior to joining the Institute, Ms. Cantagallo was a special education teacher in Maryland and the Assistive Technology Coordinator for a school district in Delaware where she provided assistive technology for children with disabilities, ages preschool through twenty-one years old. Ms. Cantagallo received her Bachelor's Degree in Early Childhood Education and Special Education from the University of Delaware, and her Master's Degree in Technology for Special Education from Johns Hopkins University.
+    link: "CantagalloLaura"
+    photo: "cantagallo.jpg"
   -
     firstname : "Guy"
     lastname : "Caruso"
@@ -95,7 +113,7 @@ staffArray:
     title : "Project Coordinator, Assistive Technology Lending Library"
     email : "Atlend@temple.edu"
     phone : "215-204-4914"
-    bio : Ms. Fetterolf is the Project Coordinator for Pennsylvanias Assistive Technology Lending Library. She is responsible for processing and screening all device loan applications, and for managing and maintaining all lending library equipment for Pennsylvanias Initiative on Assistive Technology. Ms. Fetterolf is a graduate of the Institute's C2P2 Emerging and Established Leadership program. She has done a variety of volunteer work throughout the community, and has a Masters degree from Temple University.
+    bio : Ms. Fetterolf is the Project Coordinator for Pennsylvania's Assistive Technology Lending Library. She is responsible for processing and screening all device loan applications, and for managing and maintaining all lending library equipment for Pennsylvanias Initiative on Assistive Technology. Ms. Fetterolf is a graduate of the Institute's C2P2 Emerging and Established Leadership program. She has done a variety of volunteer work throughout the community, and has a Masters degree from Temple University.
     link: "FetterolfKatie"
     photo: "fetterolf.jpg"
   -
@@ -128,15 +146,6 @@ staffArray:
     link: "FullamSusan"
     photo: "fullam.jpg"
   -
-    firstname : "Russell"
-    lastname : "Goldstein"
-    title : "Project Coordinator, ACES program"
-    email : "rgoldstein@temple.edu"
-    phone : "215-204-9083"
-    bio : Mr. Goldstein is the Project Coordinator for the ACES program at the Institute. He manages the assistive technology devices that are housed at the Institute and he facilitates public awareness events as needed. Russell holds a Bachelor's of Science Degree from Temple University.
-    link: "GoldsteinRussell"
-    photo: "goldstein.jpg"
-  -
     firstname : "Sally"
     lastname : "Gould-Taylor"
     title : "Director of Research and Evaluation"
@@ -145,6 +154,15 @@ staffArray:
     bio : Sally Gould-Taylor is the Director of Research and Evaluation at the Institute on Disabilities. She is responsible for the development, engagement and support of research protocol, method and analysis throughout the range of Institute programs and initiatives. Sally has worked on both qualitative and quantitative research projects in diverse fields of human services, disability, and education. Additionally, she has taught at Temple for seven years. Sally earned her Ph.D. in Urban Education with a focus on Anthropology of Education.
     link: "Gould-TaylorSally"
     photo: "gouldtaylor2.jpg"
+  -
+    firstname : "Laura"
+    lastname : "Grassia"
+    title : "Program Manager, Telecommunication Device Distribution Program"
+    email : "laura.grassia@temple.edu"
+    phone : "215-204-5966"
+    bio : Ms. Grassia is the program manager of the Free Special Phone Program (Telecommunication Device Distribution Program). Ms. Grassia comes to Temple with over 18 years of experience working with adults and seniors in various healthcare settings in Pennsylvania and New Jersey. She earned her Bachelor's Degree in Music and Master of Arts in Music Therapy degree from Immaculata University. In her spare time, Ms. Grassia is deeply involved as a singing member and bookkeeper in the nation's longest running feminist choir, Anna Crusis Women's Choir.
+    link: "GrassiaLaura"
+    photo: "grassia.jpg"
   -
     firstname : "Adora"
     lastname : "Hatten"
@@ -163,15 +181,6 @@ staffArray:
     bio : Ms. Helland is the AAC Services Coordinator at the Institute. She provides information, AAC evaluations and AT consults to consumers of Pennsylvania's Initiative on Assistive Technology (PIAT). Kathryn is a certified speech-language pathologist and has worked with individuals with autism spectrum disorders and complex communication needs. She received her bachelor's degree from Oberlin College and her Master's in Communication Disorders from William Paterson University.
     link: "HellandKathryn"
     photo: "helland.jpg"
-  -
-    firstname : "Shana"
-    lastname : "Hornstein"
-    title : "Program Coordinator, Graduate Assistant"
-    email : "Shana.Hornstein@temple.edu"
-    phone : "215-204-8424"
-    bio : As Graduate Assistantship Coordinator, Shana Hornstein, Ph.D., BCBA-D assists in hiring graduate assistants from a variety of terminal degree programs across campus to work at the Institute and teaches a seminar on disability for the GAs. An assistant professor of Special Education, Shana earned her doctoral degree from Arizona State University. She has been a classroom teacher, a home-based and school-based consultant, and a professional development trainer in the areas of early childhood special education, Applied Behavior Analysis, and autism.
-    link: "HornsteinShana"
-    photo: "blank.jpg"
   -
     firstname : "Mary"
     lastname : "Jones-Furlow"
@@ -196,7 +205,7 @@ staffArray:
     title : "Assistant Director of Research"
     email : "jlemanow@temple.edu"
     phone : "215-204-6562"
-    bio : Mr. Lemanowicz is Assistant Director of Research at the Institute on Disabilities, as well as the Data Coordinator for the NIRS database. A 30+ year employee of Temple his responsibilities include statistical analysis and data management on multiple research projects. Mr. Lemanowicz co-authored several publications in developmental disabilities and presented at many forums. Currently his area of concentration is quality assurance, consumer interviews, and evaluation of the quality of life for individuals with disabilities. Mr. Lemanowicz received a bachelor's degree in Business Administration from Temple University.
+    bio : Mr. Lemanowicz is Assistant Director of Research at the Institute on Disabilities, as well as the Data Coordinator for the NIRS database. A 30+ year employee of Temple his responsibilities include statistical analysis and data management on multiple research projects. Mr. Lemanowicz co-authored several publications in developmental disabilities and presented at many forums. Currently his area of concentration is quality assurance, consumer interviews, and evaluation of the quality of life for individuals with disabilities. Mr. Lemanowicz received a Master of Business Administration degree from Temple University.
     link: "LemanowiczJim"
     photo: "lemanowicz.jpg"
   -
@@ -236,6 +245,15 @@ staffArray:
     link: "McNallySandra"
     photo: "mcnally.jpg"
   -
+    firstname : "Erin"
+    lastname : "Metzinger"
+    title : "Academic Relations Coordinator, Leadership & Career Studies"
+    email : "erin.metzinger@temple.edu"
+    phone : "215-204-9544"
+    bio : Bio coming soon
+    link: "MetzingerErin"
+    photo: "metzinger.jpg"
+  -
     firstname : "Kathy"
     lastname : "Miller"
     title : "Director of Community Services"
@@ -245,6 +263,15 @@ staffArray:
     link: "MillerKathy"
     photo: "miller.jpg"
   -
+    firstname : "Nikki"
+    lastname : "Parker-Johnson"
+    title : "Assistant Director for Research and Administration"
+    email : "nicole.parker@temple.edu"
+    phone : ""
+    bio : Ms. Parker-Johnson serves as the Assistant Director for Research and Administration, and works closely with the Associate Director on financial management of externally sponsored projects. Nikki holds a Bachelor's Degree in Human Resource Management and Business Law from Temple University, and a MBA from Gwynedd Mercy University. She brings over 17 years experience in financial administration to her role.
+    link: "ParkerNikki"
+    photo: "blank.jpg"
+  -
     firstname : "Jeanette"
     lastname : "Pastelak"
     title : "Associate Director, Finance and Administration"
@@ -252,7 +279,7 @@ staffArray:
     phone : "215-204-6569"
     bio : Ms. Pastelak is the Associate Director for Finance and Administration, responsible for all fiscal related functions for the Institute. Her primary duties are oversight of proposal submissions, financial accountability for all internally and externally funded projects, and day-to-day operations. Jeanette brings over 30 years of experience in sponsored project financial administration to her position, most recently as Director of Research Accounting Services at Temple. She holds a Bachelor's Degree in Social Work from the State University of New York at Brockport.
     link: "PastelakJeanette"
-    photo: "blank.jpg"
+    photo: "pastelak.jpg"
   -
     firstname : "Stacy"
     lastname : "Phillips"
@@ -297,7 +324,7 @@ staffArray:
     phone : ""
     bio : As Director of Assistive Technology Programs, Ms. Singleton is responsible for programs to make technology available and useful to people served by the Institute. Prior to joining the Institute, Kim was a speech-language pathologist specializing in children and adults with complex communication needs, creatively enhancing lives with emerging technology. Originally from Cincinnati, Ohio, she received her Masters Degree in Speech Pathology from Miami University.
     link: "SingletonKim"
-    photo: "blank.jpg"
+    photo: "singleton.jpg"
   -
     firstname : "Lisa"
     lastname : "Sonneborn"
