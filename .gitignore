@@ -15,6 +15,7 @@ dist
 *.gif
 *.svg
 *.ico
+*.png
 
 # DOCS
 *.txt
