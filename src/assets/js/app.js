@@ -18,16 +18,16 @@ $(".btn-expander").click(function(){
   let pointerRight = 'fa-caret-square-right';
   let pointerDown = 'fa-caret-square-down';
   // console.log(this);
-  if($(this).children('span').hasClass(pointerRight)) {
-    $(this).children('span').removeClass(pointerRight).addClass(pointerDown);
-    $(this).parent().siblings('div').removeClass('hide-section').addClass('show-section');
+  if($(this).children('span.btn-expander-icon').hasClass(pointerRight)) {
+    $(this).children('span.btn-expander-icon').removeClass(pointerRight).addClass(pointerDown);
+    $(this).parent().siblings('div.expander-section').removeClass('hide-section').addClass('show-section');
   // toggle aria-hidden...
-    $(this).parent().siblings('div').attr('aria-hidden', false);
+    $(this).parent().siblings('div.expander-section').attr('aria-hidden', false);
     $(this).attr('aria-expanded', 'true');
   } else {
-    $(this).children('span').removeClass(pointerDown).addClass(pointerRight);
-    $(this).parent().siblings('div').removeClass('show-section').addClass('hide-section');
-    $(this).parent().siblings('div').attr('aria-hidden', true);
+    $(this).children('span.btn-expander-icon').removeClass(pointerDown).addClass(pointerRight);
+    $(this).parent().siblings('div.expander-section').removeClass('show-section').addClass('hide-section');
+    $(this).parent().siblings('div.expander-section').attr('aria-hidden', true);
     $(this).attr('aria-expanded', 'false');
   }
 });
