@@ -42,6 +42,12 @@
   }
 }
 
+.btn-expander-text {
+  &:hover, &:focus, &:active {
+    text-decoration: underline;
+  }
+}
+
 .hide-section {
   display: none;
 }
