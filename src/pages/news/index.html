@@ -37,7 +37,7 @@ keywords: news, events
   </div>
   </div>
 <main class="grid-x grid-padding-x" role="main" id="main">
-<div class="cell small-12 medium-10 medium-offset-1 bg-white pad-bottom-unit" id="">
+<div class="cell small-12 medium-10 medium-offset-1 bg-white" id="">
 <!--<h2 class="darkest-gray">--><h2 class="txt-color-head narrow-page-title">{{display-title}}</h2>
 
 <!-- FDN'S MEDIA OBJECT -->
@@ -183,6 +183,8 @@ keywords: news, events
 </div>
 <!--<span class="screen-reader-only"> sr only text</span>-->
 
+<div class="grid-x news-item">
+<div class="cell small-11 medium-9">
 <div class="media-object stack-for-small wide-article-link">
   <div class="media-object-section">
     <div class="thumbnail">
@@ -195,7 +197,10 @@ keywords: news, events
     <p class="read-more"><a href="https://disabilities.temple.edu/news/archive.shtml">Visit our News Archive</a></p>
   </div>
 </div>
-
+</div>
+</div>
+  <br>
+  {{> double-cta}}
 </div>
 	<!--<div class="cell small-12 medium-4 large-3" id="">
 		<aside class="callout" role="complementary">
@@ -208,4 +213,16 @@ keywords: news, events
 		</aside>
 	</div>-->
 </main>
+<aside class="grid-x grid-padding-x" id="section-nav">
+  <div class="cell small-12 medium-10 medium-offset-1 bg-white pad-bottom-unit">
+  <h3>More About Us</h3>
+  <ul class="menu">
+    <li><a href="{{root}}about/">Mission and Vision</a></li>
+    <li class="is-active"><a href="{{root}}news/">News</a></li>
+    <li><a href="{{root}}contact/">Contact</a></li>
+    <li><a href="{{root}}opportunities/">Careers</a></li>
+    <li><a href="{{root}}donate/">Giving</a></li>
+  </ul>
+  </div>
+</aside>
 </div>

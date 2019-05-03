@@ -35,7 +35,7 @@ bg-gray: true
   </div>
   </div>
 <main class="grid-x grid-padding-x bg-dark-large" role="main" id="main">
-<div class="cell small-12 medium-10 medium-offset-1 bg-white pad-bottom-unit" id="">
+<div class="cell small-12 medium-10 medium-offset-1 bg-white" id="">
 <div class="l-r-padding-unit">
 <h2 class="txt-color-head narrow-page-title">{{display-title}}</h2>
 
@@ -92,6 +92,8 @@ bg-gray: true
        <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Liacouras+Parking+Garage,+North+15th+Street,+Philadelphia,+PA+19121&amp;aq=1&amp;sll=37.0625,-95.677068&amp;sspn=45.418852,78.310547&amp;ie=UTF8&amp;hq=Liacouras+Parking+Garage,&amp;hnear=N+15th+St,+Philadelphia,+Pennsylvania+19121&amp;ll=39.98044,-75.15921&amp;spn=0.006295,0.006295" style="color:#0000FF;text-align:left" target="_blank">View Larger Map (opens new browser window)</a><br><br>
 
 </div>
+ <br>
+ {{> double-cta}}
 </div>
 	<!--<div class="cell small-12 medium-4 large-3" id="">
 		<aside class="callout" role="complementary">
@@ -104,4 +106,16 @@ bg-gray: true
 		</aside>
 	</div>-->
 </main>
+<aside class="grid-x grid-padding-x" id="section-nav">
+  <div class="cell small-12 medium-10 medium-offset-1 bg-white pad-bottom-unit">
+  <h3>More About Us</h3>
+  <ul class="menu">
+    <li><a href="{{root}}about/">Mission and Vision</a></li>
+    <li><a href="{{root}}news/">News</a></li>
+    <li class="is-active"><a href="{{root}}contact/">Contact</a></li>
+    <li><a href="{{root}}opportunities/">Careers</a></li>
+    <li><a href="{{root}}donate/">Giving</a></li>
+  </ul>
+  </div>
+</aside>
 </div>

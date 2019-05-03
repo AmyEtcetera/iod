@@ -35,7 +35,7 @@ bg-gray: true
   </div>
 
 <main class="grid-x grid-padding-x bg-dark-large" role="main" id="main">
-<div class="cell small-12 medium-10 medium-offset-1 bg-white pad-bottom-unit" id="">
+<div class="cell small-12 medium-10 medium-offset-1 bg-white" id="">
 <h2 class="txt-color-head narrow-page-title">{{display-title}}</h2>
 <!--<h3 id="2011">The Institute on Disabilities at Temple University, College of Education is now accepting applications for:</h3><br>-->
 <!--<h3>Current Listings</h3><br>  -->
@@ -46,6 +46,8 @@ bg-gray: true
 <p>The Institute on Disabilities at Temple University, Pennsylvania's University Center of Excellence in Developmental Disabilities provides interdisciplinary training, technical assistance, research, and scholarship to enhance the lives of people with developmental and other lifelong disabilities in their communities. The Institute on Disabilities is a Center within the <a href="https://education.temple.edu">College of Education</a> and reports directly to its Dean.</p>
 <p><a href="{{root}}about/">Our Mission and Vision</a></p><br>
 </div>
+  <br>
+  {{> double-cta}}
 </div>
 	<!--<div class="cell small-12 medium-4 large-3" id="">
 		<aside class="callout" role="complementary">
@@ -58,4 +60,16 @@ bg-gray: true
 		</aside>
 	</div>-->
 </main>
+<aside class="grid-x grid-padding-x" id="section-nav">
+  <div class="cell small-12 medium-10 medium-offset-1 bg-white pad-bottom-unit">
+  <h3>More About Us</h3>
+  <ul class="menu">
+    <li><a href="{{root}}about/">Mission and Vision</a></li>
+    <li><a href="{{root}}news/">News</a></li>
+    <li><a href="{{root}}contact/">Contact</a></li>
+    <li class="is-active"><a href="{{root}}opportunities/">Careers</a></li>
+    <li><a href="{{root}}donate/">Giving</a></li>
+  </ul>
+  </div>
+</aside>
 </div>
