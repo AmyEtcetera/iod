@@ -157,8 +157,6 @@
     }
 } */
 
-
-
 /* NEWS PAGE WIDE ARTICLES */
 .media-object-section {
   .thumbnail {
@@ -166,6 +164,11 @@
     box-shadow: none;
     img {
       border-radius: 2px;
+      border-bottom: 2px solid $lightest-gray;
+      border-right: 1px solid $lightest-gray;
+      @include breakpoint(small only) {
+        border-radius: 4px;
+      }
     }
   }
 }
@@ -190,7 +193,11 @@
 .news-item {
   background-color: $white;
   padding: 1rem 1rem 0.5rem;
-  border: 1px solid $medium-gray;
+  // border: 1px solid $medium-gray;
+  border-color: $lightest-gray;
+  border-style: solid;
+  border-width: 1px 1px 2px 1px;
+  border-radius: 3px;
   margin-bottom: 1rem;
   flex-wrap: wrap-reverse;
   .media-object {

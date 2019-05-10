@@ -34,8 +34,9 @@ $iod-red: #990000;
 $iod-primary: $iod-blue;
 /* FOUNDATION Colors */
 // $dark-gray
-$lightest-gray: lighten($dark-gray, 40%);
-$light-light-gray: lighten($tu-gray, 40%);
+//$lightest-gray: lighten($dark-gray, 40%); // try to adjust to base off of tu-gray
+$lightest-gray: lighten($tu-gray, 35%);
+$light-light-gray: lighten($tu-gray, 40%); // see news body bg
 
 .bg-white {
   background-color: $white-white;
@@ -62,6 +63,11 @@ $light-light-gray: lighten($tu-gray, 40%);
 .bg-lightest-gray {
   // background-color: lighten($dark-gray, 40%);
   background-color: $lightest-gray;
+}
+
+.bg-even-lighter-gray {
+  // background-color: lighten($dark-gray, 40%);
+  background-color: $light-light-gray;
 }
 
 .darkest-gray { color: $darkest-gray; }
