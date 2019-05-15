@@ -85,3 +85,12 @@
 .feature-item-programs {
   @include feature-img("../img/feature/dis-chg-weaving.jpg", "right top", 400px, 400px);
 }
+.feature-item-advocacy {
+  @include feature-img("../img/feature/skateboard-park.jpg", "right bottom", 400px, 400px);
+}
+.feature-item-education {
+  @include feature-img("../img/feature/aal-group-slider-f-min.jpg", "right top", 400px, 400px);
+}
+.feature-item-policy {
+  @include feature-img("../img/feature/supreme-court-1600x.jpg", "right top", 400px, 400px);
+}
