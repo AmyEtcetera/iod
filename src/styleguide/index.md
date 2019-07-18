@@ -134,32 +134,38 @@ As you've probably noticed in the examples above, you have access to a small, me
 <div class="row up-1 medium-up-3 large-up-5">
   <div class="column">
     <div class="color-block">
-      <span style="background: #2199e8"></span>
-      #2199e8
+      <span style="background: #2a659a"></span>
+      #2a659a iod-blue/primary/links
     </div>
   </div>
   <div class="column">
     <div class="color-block">
-      <span style="background: #3adb76"></span>
-      #3adb76
+      <span style="background: #5f7c11"></span>
+      #5f7c11 success
     </div>
   </div>
   <div class="column">
     <div class="color-block">
-      <span style="background: #ffae00"></span>
-      #ffae00
+      <span style="background: #fcb426"></span>
+      #fcb426 warning
     </div>
   </div>
   <div class="column">
     <div class="color-block">
-      <span style="background: #ec5840"></span>
-      #ec5840
+      <span style="background: #e21926"></span>
+      #e21926 alert
     </div>
   </div>
   <div class="column">
     <div class="color-block">
-      <span style="background: #0a0a0a"></span>
-      #0a0a0a
+      <span style="background: #222"></span>
+      #222 black
+    </div>
+  </div>
+  <div class="column">
+    <div class="color-block">
+      <span style="background: #0e1014"></span>
+      #0e1014 blacker
     </div>
   </div>
 </div>
@@ -168,7 +174,7 @@ As you've probably noticed in the examples above, you have access to a small, me
 
 # Typography
 
-<p class="lead">This design uses Helvetica Neue for headings and paragraph text.</p>
+<p class="lead">This design uses Open Sans and Roboto Condensed for headings and paragraph text.</p>
 
 ---
 
@@ -212,7 +218,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quibusdam ratione 
 
 # Buttons
 
-<p class="lead">Buttons are tied to an action of some kind, whether that button is on a cheese dispenser or launches the rocket that you're strapped to. On the web, we follow similar conventions.</p>
+<p class="lead">Buttons are tied to an action of some kind. In the examples, you are marking up links to appear similar to buttons, but without the semantic failure of using a button to do the work of a link.</p>
 
 ---
 
@@ -343,13 +349,13 @@ Form elements in Foundation are styled based on their type attribute rather than
 ```
 
 
-
-# New Section
+## New section, pay no attention
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora omnis suscipit id ut laborum recusandae molestias hic aliquid **expedita!** [Non dicta](zurb.com), autem obcaecati error, id ab voluptate unde culpa nulla.
 
 ```html_example
-<a href="#" class="button">Button</a>
-<a href="#" class="button">Button</a>
-<a href="#" class="button">Button</a>
+<a href="#" class="button">link with .button class</a>
+<a href="#" class="button">link with .button class</a>
+<button class="button">button with .button class</button>
+<button>Button without a class</button>
 ```
