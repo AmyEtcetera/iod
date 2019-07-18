@@ -1,70 +1,45 @@
-# ZURB WebApp Template
+# IOD Site Refactor and Refresh
 
-[![devDependency Status](https://david-dm.org/zurb/foundation-zurb-template/dev-status.svg)](https://david-dm.org/zurb/foundation-zurb-template#info=devDependencies)
+Goals:
 
-**Please open all issues with this template on the main [Foundation for Sites](https://github.com/zurb/foundation-sites/issues) repo.**
+With performance, accessibility, SEO, user-friendliness, speed and organization for developer all in mind...
 
-This is the official ZURB Template for use with [Foundation for Sites](http://foundation.zurb.com/sites). We use this template at ZURB to deliver static code to our clients. It has a Gulp-powered build system with these features:
+- Improved use of semantic HTML5
+- Site is device agnostic
+- Make Google happier
+- SEO: page titles unique to each page
+- More robust responsive design than first phase
+- Enhanced navigation menus and breadcrumbs
 
-- Handlebars HTML templates with Panini
+For the dev...
+
+- Clean crufty CSS files and rebuild as mobile-first
 - Sass compilation and prefixing
 - JavaScript module bundling with webpack
-- Built-in BrowserSync server
-- For production builds:
-  - CSS compression
-  - JavaScript module bundling with webpack
-  - Image compression
+- Minified production code
 
-## Installation
 
-To use this template, your computer needs:
+## Installation notes from ZURB
 
-- [NodeJS](https://nodejs.org/en/) (Version 6 or greater recommended, tested with 6.11.4 and 8.12.0)
+You'll need:
+
+- [NodeJS](https://nodejs.org/en/)
 - [Git](https://git-scm.com/)
 
-This template can be installed with the Foundation CLI, or downloaded and set up manually.
+
 
 ### Using the CLI
 
-Install the Foundation CLI with this command:
+Get full instructions from [ZURB](https://foundation.zurb.com/sites/docs/).
+
+Develop:
 
 ```bash
-npm install foundation-cli --global
+npm start
 ```
 
-Use this command to set up a blank Foundation for Sites project with this template:
+or Production:
 
 ```bash
-foundation new --framework sites --template zurb
+npm run build
 ```
-
-The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
-
-Now `cd` to your project name and to start your project run 
-
-```bash
-foundation watch
-```
-
-### Manual Setup
-
-To manually set up the template, first download it with Git:
-
-```bash
-git clone https://github.com/zurb/foundation-zurb-template projectname
-```
-
-Then open the folder in your command line, and install the needed dependencies:
-
-```bash
-cd projectname
-yarn
-```
-
-Finally, run `yarn start` to run Gulp. Your finished site will be created in a folder called `dist`, viewable at this URL:
-
-```
-http://localhost:8000
-```
-
-To create compressed, production-ready assets, run `yarn run build`.
