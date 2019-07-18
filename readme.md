@@ -1,5 +1,7 @@
 # IOD Site Refactor and Refresh
 
+This project uses ZURB's Foundation for Sites framework to organize and structure the project, and generates flat, minified files for production.
+
 Goals:
 
 With performance, accessibility, SEO, user-friendliness, speed and organization for developer all in mind...
@@ -30,7 +32,7 @@ You'll need:
 
 ### Using the CLI
 
-Get full instructions from [ZURB](https://foundation.zurb.com/sites/docs/).
+Get full installation and use instructions from [ZURB](https://foundation.zurb.com/sites/docs/).
 
 Develop:
 
