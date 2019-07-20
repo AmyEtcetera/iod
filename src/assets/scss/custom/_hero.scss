@@ -38,6 +38,7 @@
     background-position: $position;
 }
 
+// .feature-bg is applied to containing <section> along with a content-specfic class, like .feature-item-something, that calls the mixin @include feature-img. The mixin specifies image, position, and size.
 .feature-bg {
   color: $white;
   margin: 0;
@@ -93,4 +94,21 @@
 }
 .feature-item-policy {
   @include feature-img("../img/feature/aleong-able-2014-DSC_0302-filt-bl-1600x.jpg", "right top", 400px, 400px);
+}
+.feature-item-home {
+  @include feature-img("../img/feature/community-2019-hero-blocks-1600.jpg", "left top", 400px, 400px);
+  background: rgb(165,165,165);
+  background: linear-gradient(90deg, rgba(165,165,165,1) 0%, rgba(165,165,165,1) 35%, rgba(165,165,165,1) 100%);
+
+  @include breakpoint(small only) { background-image: none; background-color: $iod-primary; }
+
+  .feature-lead {
+    width: 70%;
+    @include breakpoint(small only) {
+      width: 100%;
+    }
+    @include breakpoint(medium only) {
+      width: 80%;
+    }
+   }
 }
