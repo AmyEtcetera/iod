@@ -1,18 +1,29 @@
 // This and other sheets are imported to app.scss
-
+.button {
+  border-radius: 3px;
+}
+.button.button-primary-reverse {
+  border-color: $white;
+  color: $white;
+  &:hover {
+    color: $white;
+    text-decoration: none;
+    background-color: $iod-blue;
+  }
+}
 .button.primary {
   // requires hover colors etc.
     background-color: $iod-primary;
-    border-radius: 3px;
+    // border-radius: 3px;
     color: $white;
     &:hover, &:active {
       background-color: darken($iod-primary, 3%);
-      text-decoration: underline;
+      text-decoration: none;
     }
   }
 .button.secondary {
     background-color: darken($tu-secondary, 12%);
-    border-radius: 3px;
+    // border-radius: 3px;
     color: $white;
     &:hover, &:active {
       background-color: darken($tu-secondary, 16%);
@@ -21,7 +32,7 @@
   }
 .button.warning {
     background-color: $tu-warning;
-    border-radius: 3px;
+    // border-radius: 3px;
     color: $tu-black;
     &:hover, &:active {
       background-color: darken($tu-warning, 9%);
@@ -30,7 +41,7 @@
   }
 .button.success {
   background-color: $tu-success;
-  border-radius: 3px;
+//   border-radius: 3px;
   color: $white;
   &:hover, &:active {
     background-color: darken($tu-success, 3%);
