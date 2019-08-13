@@ -82,6 +82,9 @@ $light-light-gray: lighten($tu-gray, 40%); // see news body bg
 
 .tu-red { color: $tu-red; }
 .tu-gold { color: $tu-gold; }
+.lightest-gray { color: $lightest-gray; }
+.tu-gray { color:$tu-gray; }
+.dark-gray { color: lighten($darkest-gray, 55%); }
 // REDEFINE Foundation dropdown menu triangle
 // $dropdownmenu-arrow-color: $white-white;
 

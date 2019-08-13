@@ -9,3 +9,122 @@
   border: 1px solid #ccc;
   padding: 4px;
 }
+
+/* SVG */
+@mixin icon-padding($top: 0, $right: 0, $bottom: 0, $left: 0) {
+  padding-top: $top;
+  padding-right: $right;
+  padding-bottom: $bottom;
+  padding-left: $left;
+}
+@mixin icon-margin($top: 0, $right: 0, $bottom: 0, $left: 0) {
+  margin-top: $top;
+  margin-right: $right;
+  margin-bottom: $bottom;
+  margin-left: $left;
+}
+
+.icon-group {
+    @include icon-margin(2em, 0, 0, 0); // you can also use null as needed
+    @include icon-padding(0, 0, 0, 0);
+		display: flex;
+		list-style: none;
+		justify-content: flex-start;
+		align-content: space-around;
+		flex-wrap: wrap;
+    li {
+			margin: 6px;
+		}
+    a {
+			border: 2px solid orange;
+			border-radius: 4px;
+			padding: 1em 2em;
+      padding: 0;
+			border:none;
+			display: block;
+			text-decoration: none;
+      &:hover {
+       background-color: pink;
+      }
+		}
+	}
+.svg-icon {
+ 	//width: 7rem;
+	//height: 5rem;
+	//fill: $tu-red;
+}
+.menu-icon {
+	display: inline-block;
+	width: 3em; /* width is necessary! */
+	height: 3em;
+	fill: #555;
+}
+.svg-icon-child {
+  width: 5rem;
+  height: 5rem;
+}
+.svg-icon-clipboard-check {
+  width: 5rem;
+  height: 5rem;
+}
+.svg-icon-newspaper {
+  width: 7rem;
+  height: 5rem;
+}
+.svg-icon-certificate-solid {
+  width: 3rem;
+  height: 2rem;
+}
+.svg-icon-highlighter {
+  width: 3rem;
+  height: 2rem;
+}
+.svg-icon-info-circle {
+  width: 4rem;
+  height: 3rem;
+  display: block;
+  margin: auto;
+}
+.svg-icon-search {
+  width: 4rem;
+  height: 3rem;
+  display: block;
+  margin: auto;
+}
+.svg-icon-calendar-alt {
+  width: 3rem;
+  height: 3rem;
+  display: block;
+  margin: auto;
+}
+
+/*
+    @mixin feature-img ($img, $position: center center, $heightsm: 600px, $heightlg: 500px) {
+        @include breakpoint(small only) { // foundation breakpoint mixin
+        background: linear-gradient(to bottom,
+        rgba(0,0,0,.1),
+        rgba(0,0,0,.1)),
+        url($img);
+        background-size: cover;
+        height: $heightsm;
+        }
+        @include breakpoint(medium) { // foundation breakpoint mixin
+        background: linear-gradient(to bottom,
+        rgba(0,0,0,.1),
+        rgba(0,0,0,.1)),
+        url($img);
+        background-size: cover;
+        height: $heightlg;
+        }
+        background-repeat: no-repeat;
+        background-position: $position;
+    }
+    */
+/*<ul class="icon-group">
+  <li><a href="#"><svg class="menu-icon"><use xlink:href="#icon-fb"></use></svg></a></li>
+  <li><a href="#"><svg class="menu-icon"><use xlink:href="#icon-twitter"></use></svg></a></li>
+  <li><a href="#"><svg class="menu-icon"><use xlink:href="#icon-ig"></use></svg></a></li>
+  <li><a href="#"><svg class="menu-icon"><use xlink:href="#icon-youtube"></use></svg></a></li>
+  <li><a href="#"><svg class="menu-icon"><use xlink:href="#icon-pinterest"></use></svg></a></li>
+</ul>
+*/

@@ -8,8 +8,7 @@
     <meta name="description" content="{{meta-description}}">
     <!-- Fonts loaded from style sheet now. Do not add here. -->
     <link rel="stylesheet" href="{{root}}assets/css/app.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <!-- version 4 <script src="https://use.fontawesome.com/e092166dca.js" async></script>-->
+    <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">-->
     <!-- FB OG TAGS HERE... -->
 	  <!-- ANALYTICS NEXT: -->
     <!--
@@ -26,6 +25,7 @@
   </head>
   <body {{#if bg-gray}}class="bg-dark-large"{{/if}}>
     {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+    {{> svg-sprite-home}}
     {{> header}}
     {{> nav-titlebar-accordion}}
     {{> body}}
