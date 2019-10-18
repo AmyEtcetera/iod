@@ -53,3 +53,14 @@ td.bg-darker {
     color: darken($iod-blue, 30%);
   }
 }
+
+footer {
+  a:link, a:visited {
+    color: #fcfcfc;
+    text-decoration: underline;
+  }
+  a:hover, a:active {
+    color: #f7dc6f;
+    text-decoration: none;
+  }
+}
