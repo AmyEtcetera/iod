@@ -25,6 +25,12 @@
   z-index: 1;
 }
 
+.border-simple {
+  border: 1px solid $lightest-gray;
+  border-radius: 5px;
+}
+
+
 .small-text-center {
   @include breakpoint(small only) {
     text-align: center;
@@ -40,6 +46,10 @@
   @include breakpoint(large) {
     background-color: $light-gray;
   }
+}
+
+.padding-unit {
+  padding: 1rem;
 }
 
 .l-r-padding-unit {
@@ -84,6 +94,9 @@
 .pad-bottom-unit { padding-bottom: 1.6rem;}
 .margin-bottom-none {
   margin-bottom: 0;
+}
+.margin-top-unit {
+  margin-top: 1rem;
 }
 .margin-top-none {
   margin-top: 0;
