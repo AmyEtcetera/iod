@@ -30,6 +30,7 @@
 
 .skip-nav {
   text-align: right;
+	margin-top: -2rem;
   :focus {
     background-color: $tu-red;
     padding:0.5rem 0.75rem;
@@ -38,7 +39,7 @@
     text-decoration: underline;
   }
 	@include breakpoint(small only) {
-		text-align: left;
+		margin-top: -0.5rem;
 		margin-bottom: 0.2rem;
 	}
 }
