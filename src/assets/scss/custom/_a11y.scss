@@ -37,4 +37,8 @@
     border-radius: 3px;
     text-decoration: underline;
   }
+	@include breakpoint(small only) {
+		text-align: left;
+		margin-bottom: 0.2rem;
+	}
 }
