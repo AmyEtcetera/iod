@@ -118,7 +118,8 @@
 .gsc-search-box table tbody {
   border: 0;
   @include breakpoint(large) {
-    background-color: $light-gray;
+  //  background-color: $light-gray;
+  background-color: $white;
   }
 }
 // Move to _settings-overrides?
