@@ -22,6 +22,12 @@ cite::before {
     content: "";
 }
 
+.narrow-copy {
+  font-family: $font-stack-display;
+}
+.narrow-copy-light {
+  font-weight: 300;
+}
 .narrow-site-title {
   font-family: $font-stack-display;
   font-weight: 400;
@@ -29,7 +35,7 @@ cite::before {
 .narrow-page-title {
   font-family: $font-stack-display;
   font-weight: 400;
-  margin-top:0.6rem;
+  margin-top: 0.6rem;
   @include breakpoint(small only) {
     font-size: 1.728rem;
   }
@@ -88,7 +94,7 @@ main {
 //   line-height: 1.6;
 //   text-rendering: optimizeLegibility; }
 
-// Isn't lead already a class that's musch simpler? This should probably extend lead instead of overwriting it.
+// Isn't lead already a class that's much simpler? This should probably extend lead instead of overwriting it. (see _hero.scss)
 .lead, .feature-lead {
   @include breakpoint(small) {
     font-family: $font-stack-display;
@@ -152,8 +158,14 @@ main {
 .smaller-text-85 {
   font-size: 85%;
 }
+.text-100 {
+  font-size: 100%;
+}
 .smaller-text-90 {
    @include breakpoint(medium) {font-size: 90%;}
+}
+.text-all-small-caps {
+  font-variant: all-small-caps;
 }
 
 // Semantic, but right-sized...
