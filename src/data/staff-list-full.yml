@@ -2,10 +2,10 @@ staffArray:
   -
     firstname : "John"
     lastname : "Badger"
-    title : "Coordinator of Student Supports"
+    title : "Coordinator of Student Supports, Leadership & Career Studies"
     email : "jack.badger@temple.edu"
     phone : "215-204-3031"
-    bio : Mr. Badger is the Coordinator of Student Supports for the Leadership & Career Studies program, overseeing its Coach and Internship components while ensuring that each student is provided with the necessary supports to fulfill their academic, career-oriented, and social goals. Since graduating from Temple University in 2010 with a BA in Psychology and prior to joining the Institute in 2013, Jack worked as an Employment Specialist in Doylestown, PA, alongside adults with disabilities throughout Bucks County, and spent a year teaching English as a Foreign Language in the city of Changsha, Hunan Province, China.
+    bio : Mr. Badger is the Coordinator of Student Supports for Leadership & Career Studies, overseeing its Coach and Internship components while ensuring that each student is provided with the necessary supports to fulfill their academic, career-oriented, and social goals. Since graduating from Temple University in 2010 with a BA in Psychology and prior to joining the Institute in 2013, Jack worked as an Employment Specialist in Doylestown, PA, alongside adults with disabilities throughout Bucks County, and spent a year teaching English as a Foreign Language in the city of Changsha, Hunan Province, China.
     link: "BadgerJohn"
     photo: "badger.jpg"
   -
@@ -20,7 +20,7 @@ staffArray:
   -
     firstname : "Denise"
     lastname : "Beckett"
-    title : "Project Coordinator"
+    title : "Coordinator, Logistics and Projects"
     email : "denise.beckett@temple.edu"
     phone : "215-204-4979"
     bio : As Coordinator of Logistics and Projects, Ms. Beckett maintains and monitors logistics for various projects including, but not limited to, Leadership and Career Studies, C2P2/EI and C2P2/Family Leadership programs, Person Driven Services and Supports. Prior to joining the Institute, Denise served as the admissions administrator at a private academy. Ms. Beckett earned a Master's Degree in Advanced Theology from Chesapeake Seminary, MD.
@@ -29,10 +29,10 @@ staffArray:
   -
     firstname : "Titania"
     lastname : "Boddie"
-    title : "Program Coordinator, Academy for Adult Learning; Assistant Coordinator, Supported Leadership"
+    title : "Program Coordinator, Leadership &amp; Career Studies"
     email : "Tboddi01@temple.edu"
     phone : "215-204-3916"
-    bio : Ms. Boddie is the Project Manager of Leadership &amp; Career Studies. Her essential functions include developing curricula, policies and procedures, presenting at city and state-wide events as well as planning and organizing events. In addition, Titania has worked with the Philadelphia Mental Health Center and Philadelphia School District supporting people with disabilities. She earned her Bachelor's Degree in Elementary/Early Childhood Education at Temple University and is currently pursuing a Master's Degree through the Adult Organizational Development program, College of Education at Temple University.
+    bio : Ms. Boddie is the Program Coordinator, Leadership &amp; Career Studies and is responsible for overseeing the day to day operations of LCS. Titania serves as the primary instructor of the LCS seminar for both freshmen and seniors. Her essential functions include developing curricula, policies and procedures, presenting at city and state-wide events as well as planning and organizing events. In addition, Titania has worked with the Philadelphia Mental Health Center and Philadelphia School District supporting people with disabilities. She earned her Bachelor's Degree in Elementary/Early Childhood Education at Temple University and is currently pursuing a Master'''s Degree through the Adult Organizational Development program, College of Education at Temple University.
     link: "BoddieTitania"
     photo: "boddie.jpg"
   -
@@ -45,19 +45,19 @@ staffArray:
     link: "BoldenYvette"
     photo: "bolden.jpg"
   -
-    firstname : "Monica"
-    lastname : "Bolli"
-    title : "Office Manager"
-    email : "monica.bolli@temple.edu"
-    phone : "215-204-7556"
-    bio : As Office Manager, Ms. Bolli is responsible for the daily administrative operations in the Institute's main office. In addition, she works with several Institute programs including C2P2 Early Intervention and Families First. Before coming to the Institute, Monica spent more than 20 years in the consulting field at United Professional Plans Inc., a benefit design firm.
-    link: "BolliMonica"
-    photo: "bolli.jpg"
+    firstname : "Kathryn"
+    lastname : "Burke"
+    title : "Research"
+    email : "kburke@temple.edu"
+    phone : "215-204-1356"
+    bio : Biography coming soon.
+    link: "BurkeKathryn"
+    photo: "blank.jpg"
   -
     firstname : "Laura"
     lastname : "Cantagallo"
     title : "Assistive Technology Specialist and Outreach Coordinator"
-    email : "laura.cantagallo.edu"
+    email : "laura.cantagallo@temple.edu"
     phone : "215-204-5097"
     bio : As an Assistive Technology Specialist for the Insitute and the Outreach Coordinator for the free special phone program, Ms. Cantagallo is responsible for providing assistive technology demonstrations, technical assistance, and information to Pennsylvania residents. Prior to joining the Institute, Ms. Cantagallo was a special education teacher in Maryland and the Assistive Technology Coordinator for a school district in Delaware where she provided assistive technology for children with disabilities, ages preschool through twenty-one years old. Ms. Cantagallo received her Bachelor's Degree in Early Childhood Education and Special Education from the University of Delaware, and her Master's Degree in Technology for Special Education from Johns Hopkins University.
     link: "CantagalloLaura"
@@ -65,7 +65,7 @@ staffArray:
   -
     firstname : "Guy"
     lastname : "Caruso"
-    title : "Coordinator of UCEDD West"
+    title : "Western Coordinator"
     email : "guy@temple.edu"
     phone : "724-934-1142"
     bio : As Western Coordinator, Dr. Caruso is responsible for training and related activities in western Pennsylvania. In addition, he provides technical assistance to Pennsylvania's ODP Independent Monitoring for Quality Program. He has worked in human services for more than 40 years as an advocate, teacher, trainer, researcher, and consultant. Dr. Caruso has a master's degree and a doctorate from Syracuse University and is a Fellow of the American Association on Intellectual and Developmental Disabilities.
@@ -80,6 +80,15 @@ staffArray:
     bio : Ms. Cunningham is the Assistant Director of Technical Assistance, responsible for providing technical assistance to PA's Independent Monitoring for Quality Project, which assesses the satisfaction and quality of life of individuals receiving intellectual services through the Office of Developmental Programs and is a member of the Pennsylvania Developmental Disabilities Council. Before joining the Institute, Ms. Cunningham was Director of Quality Management at a provider organization. She is a PA DPW-ODP Certified Incident Investigator and a Personal Outcome Measure interviewer through the Council on Quality and Leadership. She has a BS in Psychology from Kutztown University and a MSW from Temple University.
     link: "CunninghamMaryKay"
     photo: "rentz.jpg"
+  -
+    firstname : "Tom"
+    lastname : "DiAgostino"
+    title : "Outreach and Training Coordinator"
+    email : "ThomasD@temple.edu"
+    phone : "215-204-9083"
+    bio : As the Outreach and Training Coordinator for TechOWL, Tom coordinates all outreach events and presentations for TechOWL, builds TechOWL's presence on social media, and publishes video clips and blog content. He also assists in the assistive technology fabrication program called CreATe Together. Tom holds a BA in Women, Gender and Sexuality Studies with a secondary major in Spanish Language and Linguistics from Temple University and is currently finishing his MA in Spanish Applied Linguistics at Temple University.
+    link: "DiAgostinoTom"
+    photo: "diagostino.jpg"
   -
     firstname : "Virginia"
     lastname : "DiLello"
@@ -113,7 +122,7 @@ staffArray:
     title : "Project Coordinator, Assistive Technology Lending Library"
     email : "Atlend@temple.edu"
     phone : "215-204-4914"
-    bio : Ms. Fetterolf is the Project Coordinator for Pennsylvania's Assistive Technology Lending Library. She is responsible for processing and screening all device loan applications, and for managing and maintaining all lending library equipment for Pennsylvanias Initiative on Assistive Technology. Ms. Fetterolf is a graduate of the Institute's C2P2 Emerging and Established Leadership program. She has done a variety of volunteer work throughout the community, and has a Masters degree from Temple University.
+    bio : Ms. Fetterolf is the Project Coordinator for Pennsylvania's Assistive Technology Lending Library. She is responsible for processing and screening all device loan applications, and for managing and maintaining all lending library equipment for Pennsylvania's Initiative on Assistive Technology. Ms. Fetterolf is a graduate of the Institute's C2P2 Emerging and Established Leadership program. She has done a variety of volunteer work throughout the community, and has a Masters degree from Temple University.
     link: "FetterolfKatie"
     photo: "fetterolf.jpg"
   -
@@ -122,9 +131,10 @@ staffArray:
     title : "Director of Academic Programs"
     email : "kate.fialkowski@temple.edu"
     phone : "215-204-6560"
-    bio : Ms. Fialkowski directs the Institute on Disabilities' university-based education programs, including the Interdisciplinary Faculty Council on Disability, the Disability and Change Symposium, and the Disability Studies Certificate program. Ms. Fialkowski was an MIT Executive in Residence at the Media Lab's Center for Future Banking, a Joseph P. Kennedy Jr. Public Policy Fellow at the Administration on Intellectual and Developmental Disabilities, and the Executive Director of The Arc Maryland. As an American Association of University Women (AAUW) Career Development Grantee...
-    bio-pt2: She also holds a BA in Technical Communication from Bowling Green State University. The Fialkowski family were involved in several landmark cases including Halderman v. Pennhurst State School and Hospital, PARC v. The Commonwealth of Pennsylvania, and Fialkowski v. Greenwhich Home for Children. Kate Fialkowski has worked on numerous national disability policy task groups including Building a National Agenda for Supporting Families with a Member with Intellectual and Developmental Disabilities (2011) and Enabling Adults with ID...
-    bio-pt3: Affected by Dementia to Remain in Their Community and Receive Supports (2012). National conference presentations include Including People with Disabilities in the Discussion of Domestic Abuse and Violence (2016). Ms. Fialkowski and her brother David Fialkowski are active sibling advocates and have presented together at a number of events including Temple Institute on Disabilities Miniseries, Siblings Moving Beyond the Parent/Child Relationship (2011).
+    bio : Ms. Fialkowski directs the Institute on Disabilities' university-based education programs, including the Interdisciplinary Faculty Council on Disability, the Disability and Change Symposium, and the Disability Studies Certificate program. Ms. Fialkowski was an MIT Executive in Residence at the Media Lab's Center for Future Banking, a Joseph P. Kennedy Jr. Public Policy Fellow at the Administration on Intellectual and Developmental Disabilities, and the Executive Director of The Arc Maryland.
+    bio-pt2: As an American Association of University Women (AAUW) Career Development Grantee, Ms. Fialkowski received her Master of Theological Studies (MTS) in Biotechnology and Ethics from the JPII Institute at Catholic University of America. She also holds a BA in Technical Communication from Bowling Green State University.
+    bio-pt3: The Fialkowski family were involved in several landmark cases including Halderman v. Pennhurst State School and Hospital, PARC v. The Commonwealth of Pennsylvania, and Fialkowski v. Greenwhich Home for Children. Kate Fialkowski has worked on numerous national disability policy task groups including Building a National Agenda for Supporting Families with a Member with Intellectual and Developmental Disabilities (2011) and
+    bio-pt4: Enabling Adults with ID Affected by Dementia to Remain in Their Community and Receive Supports (2012). National conference presentations include Including People with Disabilities in the Discussion of Domestic Abuse and Violence (2016). Ms. Fialkowski and her brother David Fialkowski are active sibling advocates and have presented together at a number of events including Temple Institute on Disabilities Miniseries, Siblings Moving Beyond the Parent/Child Relationship (2011).
     link: "FialkowskiKate"
     photo: "fialkowski.jpg"
   -
@@ -142,7 +152,7 @@ staffArray:
     title : "Director of Communication"
     email : "sfullam@temple.edu"
     phone : "215-204-1123"
-    bio : As Director of Information Dissemination, Ms. Fullam is responsible for all material created and distributed by the Institute, including web, print, audio and video. She spent the greater part of her career in publishing and communications in the private sector. After graduating from Rutgers, the State University of New Jersey, Ms. Fullam served first as graphic designer, then as managing Editor, of a local newspaper. She then spent more than 10 years at TV Guide magazine as Director of Marketing Services.
+    bio : As Director of Communication, Ms. Fullam is responsible for all material created and distributed by the Institute, including web, print, audio and video. She spent the greater part of her career in publishing and communications in the private sector. After graduating from Rutgers, the State University of New Jersey, Ms. Fullam served first as graphic designer, then as managing Editor, of a local newspaper. She then spent more than 10 years at TV Guide magazine as Director of Marketing Services.
     link: "FullamSusan"
     photo: "fullam.jpg"
   -
@@ -157,10 +167,10 @@ staffArray:
   -
     firstname : "Laura"
     lastname : "Grassia"
-    title : "Program Manager, Telecommunication Device Distribution Program"
+    title : "Program Manager, Free Phones Program"
     email : "laura.grassia@temple.edu"
     phone : "215-204-5966"
-    bio : Ms. Grassia is the program manager of the Free Special Phone Program (Telecommunication Device Distribution Program). Ms. Grassia comes to Temple with over 18 years of experience working with adults and seniors in various healthcare settings in Pennsylvania and New Jersey. She earned her Bachelor's Degree in Music and Master of Arts in Music Therapy degree from Immaculata University. In her spare time, Ms. Grassia is deeply involved as a singing member and bookkeeper in the nation's longest running feminist choir, Anna Crusis Women's Choir.
+    bio : Ms. Grassia is the program manager of the Free Phones Program. Ms. Grassia comes to Temple with over 18 years of experience working with adults and seniors in various healthcare settings in Pennsylvania and New Jersey. She earned her Bachelor's Degree in Music and Master of Arts in Music Therapy degree from Immaculata University. In her spare time, Ms. Grassia is deeply involved as a singing member and bookkeeper in the nation's longest running feminist choir, Anna Crusis Women's Choir.
     link: "GrassiaLaura"
     photo: "grassia.jpg"
   -
@@ -211,7 +221,7 @@ staffArray:
   -
     firstname : "Amy"
     lastname : "Letson"
-    title : "Web Developer"
+    title : "Web Design Specialist"
     email : "amy.letson@temple.edu"
     phone : "215-204-9558"
     bio : Ms. Letson manages website development, photography, and social media for the Institute. She holds a BFA from the University of Delaware and a master's from Temple University. Her professional experience spans news, publishing, finance, nonprofit, and higher education sectors.
@@ -220,10 +230,10 @@ staffArray:
   -
     firstname : "Jule Ann"
     lastname : "Lieberman"
-    title : "Program Coordinator"
+    title : "Assistive Technology Program Coordinator"
     email : "Jule.ann.lieberman@temple.edu"
     phone : "215-204-2933"
-    bio : As Program Coordinator Ms. Lieberman provides information and assistance to consumers of Pennsylvanias Initiative on Assistive Technology (PIAT). She conducts assistive technology (AT) demonstrations and training and is responsible for public awareness activities to promote the PIAT's service goals. Ms. Lieberman has earned her MS in Low Vision Therapy from Salus University, Certificate in AT Applications from California State University Northridge and is a Certified Low Vision Therapist with more than 15 years experience of providing computer AT instruction to adults with vision loss and blindness. She recently founded EZ2C Foundation, a non-profit agency serving people adjusting to life with permanent vision loss, earned Certification as Assistive Technology Professional from RESNA, Certified Low vision Therapist from ACVREP, and has obtained dual certification as Low Vision Therapist and Assistive Technology Instructional Specialist from acvrep.org.
+    bio : As Assistive Technology Program Coordinator Ms. Lieberman provides information and assistance to consumers of TechOWL. She conducts assistive technology (AT) demonstrations and training and is responsible for public awareness activities to promote TechOWL's service goals. Ms. Lieberman has earned her MS in Low Vision Therapy from Salus University, Certificate in AT Applications from California State University Northridge and is a Certified Low Vision Therapist with more than 15 years experience of providing computer AT instruction to adults with vision loss and blindness. She recently founded EZ2C Foundation, a non-profit agency serving people adjusting to life with permanent vision loss, earned Certification as Assistive Technology Professional from RESNA, Certified Low vision Therapist from ACVREP, and has obtained dual certification as Low Vision Therapist and Assistive Technology Instructional Specialist from acvrep.org.
     link: "LiebermanJuleAnn"
     photo: "lieberman.jpg"
   -
@@ -267,7 +277,7 @@ staffArray:
     lastname : "Parker-Johnson"
     title : "Assistant Director for Research and Administration"
     email : "nicole.parker@temple.edu"
-    phone : ""
+    phone : "215-204-1356"
     bio : Ms. Parker-Johnson serves as the Assistant Director for Research and Administration, and works closely with the Associate Director on financial management of externally sponsored projects. Nikki holds a Bachelor's Degree in Human Resource Management and Business Law from Temple University, and a MBA from Gwynedd Mercy University. She brings over 17 years experience in financial administration to her role.
     link: "ParkerNikki"
     photo: "blank.jpg"
@@ -321,7 +331,7 @@ staffArray:
     lastname : "Singleton"
     title : "Director of Assistive Technology Programs"
     email : "kim.singleton@temple.edu"
-    phone : ""
+    phone : "215-204-1356"
     bio : As Director of Assistive Technology Programs, Ms. Singleton is responsible for programs to make technology available and useful to people served by the Institute. Prior to joining the Institute, Kim was a speech-language pathologist specializing in children and adults with complex communication needs, creatively enhancing lives with emerging technology. Originally from Cincinnati, Ohio, she received her Masters Degree in Speech Pathology from Miami University.
     link: "SingletonKim"
     photo: "singleton.jpg"

@@ -1,11 +1,11 @@
-<tbody id="searchTable">
+<tbody class="search-table" id="searchTable">
   {{#each staff-list-full.staffArray}}
-  <tr class="">
+  <tr class="gap-rows shadow-simple">
     <!--<td width="20%"><a href="#{{link}}"><strong>{{firstname}} {{lastname}}</strong></a></td>
     <td width="35%">{{title}}</td>
     <td width="20%">{{phone}}</td>
     <td width="25%"><a href="mailto:{{email}}">{{email}}</a></td>-->
-    <td class="bg-darker"><a href="#{{link}}" class="txt-lightest"><span class="h5">{{firstname}} {{lastname}}</span><br><em>read bio</em> <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a></td>
+    <td class="td-strong txt-lightest"><a href="#{{link}}" class="light-marker"><span class="h5">{{firstname}} {{lastname}}</span><br><em>read bio</em> <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a></td>
     <td>{{title}}</td>
     <td><span style="white-space: nowrap"><i class="fa fa-phone-square"></i> {{phone}}</span></td>
     <td><i class="fa fa-envelope"></i> <a href="mailto:{{email}}" class="link-darker">{{email}}</a></td>

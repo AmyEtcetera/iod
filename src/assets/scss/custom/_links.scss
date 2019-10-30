@@ -2,12 +2,23 @@ a {
   text-decoration: underline;
 }
 
-td.bg-darker {
+/*td.bg-darker {
   a:hover, a:focus {
     color: $white;
     text-decoration: underline;
   }
-}
+}*/
+
+/* light-marker: light color text and marker-style hover highlight with a bg color  */
+  a.light-marker:link, a.light-marker:visited {
+    color: $white;
+  }
+
+  a.light-marker:focus, a.light-marker:hover, a.light-marker:active {
+    text-decoration: none;
+    //color: $white;
+    background-color: darken($tu-red, 20%);
+  }
 
 .breadcrumbs {
   a {
@@ -51,6 +62,7 @@ td.bg-darker {
   }
   &:hover, &:active {
     color: darken($iod-blue, 30%);
+    text-decoration: none;
   }
 }
 

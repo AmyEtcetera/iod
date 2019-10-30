@@ -80,6 +80,11 @@ $light-light-gray: lighten($tu-gray, 40%); // see news body bg
   color: darken($tu-red, 10%);
 }
 
+.td-strong {
+  background-color: darken($tu-red, 10%);
+  border-bottom: 1px solid $tu-red;
+}
+
 .tu-red { color: $tu-red; }
 .tu-gold { color: $tu-gold; }
 .lightest-gray { color: $lightest-gray; }
