@@ -1,0 +1,68 @@
+---
+layout: default
+head-title: Publications | Institute on Disabilities at Temple University College of Education
+meta-description: Range of Institute on Disabilities publications for immediated free download or purchase/ship.
+category: publications
+display-title: Publications and Multimedia Material
+description: Publications by the Institute on Disabilties
+keywords:
+bg-gray: true
+---
+<div class="grid-container">
+
+<div class="grid-x grid-padding-x bg-dark-large">
+  <div class="cell small-12 medium-10 medium-offset-1 bg-lightest-gray padding-breadcrumbs margin-breadcrumbs"">
+    <nav aria-label="You are here:" role="navigation">
+      <ul class="breadcrumbs">
+        <li><a href="../">Home</a></li>
+        <li><a href="./">About Us</a></li>
+        <li><a href="#">Staff Directory</a></li>
+        <li><span class="show-for-sr">Current page: Publications</span></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+<main class="grid-x grid-padding-x bg-dark-large" role="main" id="main">
+	<div class="cell small-12 medium-10 medium-offset-1 bg-white" id="">
+    <h2 class="txt-color-head narrow-page-title">{{display-title}}</h2>
+    <p>Available for immediate free download or purchase. For information or help downloading files, email <a href="mailto:iod@temple.edu">iod@temple.edu</a> or call 215-204-1123.</p>
+		<article class="">
+      <h3>Publications: Free Downloads</h3>
+
+      <p>PDFs require Adobe or similar software for reading the text.</p>
+      <!-- <div class="callout primary rounding-min shadow-simple">
+      <p aria-hidden="true"><label for="searchInput" class="base-font-size">Type below to search names, titles, or emails:</label>
+        <input id="searchInput" type="search" placeholder="Search.." aria-hidden="true" tabindex="-1"></p>
+      </div> -->
+      <table class="stack hover">
+        <legend class="sr-only"> Publications - free downloads</legend>
+        <thead>
+        <tr>
+          <th>Item and Description</th>
+          <th>Price / Link / Instructions</th>
+        </tr>
+        </thead>
+      {{> pub-list-download}}
+      </table>
+      <br>
+      <h3>Publications: Items Available for Shipping</h3>
+      <table class="stack hover">
+        <legend class="sr-only"> Publications - items available to ship</legend>
+        <thead>
+        <tr>
+          <th>Item and Description</th>
+          <th>Price / Link</th>
+        </tr>
+        </thead>
+      {{> pub-list-ship}}
+      </table>
+		</article>
+    <br>
+    {{> double-cta}}
+	</div>
+</main>
+<aside class="grid-x grid-padding-x" id="section-nav">
+  <div class="cell small-12 medium-10 medium-offset-1 bg-white pad-bottom-unit">
+  </div>
+</aside>
+</div>

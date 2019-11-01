@@ -1,0 +1,101 @@
+itemArray:
+  -
+    title : "Institute on Disabilities Info Sheet"
+    linkhref: "IOD_Programs_1sheet.pdf"
+    linktextscreenreader: "the Institute info sheet"
+    description: "Brief description of Institute on Disabilities programs"
+  -
+    title : "Augmentative and Alternative Communication Info Sheet"
+    linkhref: "AAC_1sheet.pdf"
+    linktextscreenreader: "the Augmentative and Alternative Communication info sheet"
+    description: "Brief description of the Institute programs created for and by people who use augmentative and alternative communication."
+  -
+    title : "Graduate Assistantship Info Sheet"
+    linkhref: "Grad_Asst_1sheet.pdf"
+    linktextscreenreader: "the Graduate Assistantship info sheet"
+    description: "Overview of Institute's Graduate Assistantship program."
+  -
+    title : "Emergency Preparedness Info Sheet"
+    linkhref: "E_Prep_1sheet.pdf"
+    linktextscreenreader: "the Emergency Preparedness info sheet"
+    description: "Overview of this Institute program, its mission, and levels of emergencies."
+  -
+    title : "Graduate Assistantship Info Sheet"
+    linkhref: "Grad_Asst_1sheet.pdf"
+    linktextscreenreader: "the Graduate Assistantship info sheet"
+    description: "Overview of Institute's Graduate Assistantship program."
+  -
+    title : "Leadership Development Info Sheet"
+    linkhref: "Family_Leadership_1sheet.pdf"
+    linktextscreenreader: "the Leadership Development info sheet"
+    description: "Brief overview of the Institute programs which promote, train and facilitate leadership among people with disabilites and families."
+  -
+    title : "Pennsylvania's Initiative on Assistive Technology (PIAT) Info Sheet"
+    linkhref: "PIAT_1sheet.pdf"
+    linktextscreenreader: "PA's Initiative on Assistive Technology info sheet"
+    description: "Brief overview of PIAT, a program of the Institute on Disabilities."
+  -
+    title : "Assistive Technology at Work Info Sheet"
+    linkhref: "AT_Workplace_1sheet.pdf"
+    linktextscreenreader: "the Assistive Technology at Work info sheet"
+    description: "Brief description of this Institute program which trains employers to hire and retain employees with disabilities through the use of assistive technology."
+  -
+    title : "Assistive Technology Device Demonstrations Info Sheet"
+    linkhref: "Demo_1sheet.pdf"
+    linktextscreenreader: "the Device demonstration info sheet"
+    description: "Brief description of this Institute program which offers demonstrations of assistive technology devices."
+  -
+    title : "Recycled and Exchanged Equipment Partnership (REEP) Info Sheet"
+    linkhref: "REEP_1sheet.pdf"
+    linktextscreenreader: "the Recycled and Exchanged Equipment Partnership info sheet"
+    description: "Brief description of this Institute program which lists contact information for partners throughout Pennsylvania that might be a source for 'previously-owned' assistive technology devices."
+  -
+    title : "Telecommunication Device Distribution Program Info Sheet"
+    linkhref: "TDDP_1sheet.pdf"
+    linktextscreenreader: "the Telecommunication program info sheet"
+    description: "Brief description of this Institute program which gives telecommunication devices to eligible people with disabilities."
+  -
+    title : "Visionary Voices Info Sheet"
+    linkhref: "VV_1sheet.pdf"
+    linktextscreenreader: "the Visionary Voices info sheet"
+    description: "Brief description of this Institute project which captures the history of the Intellectual Disability Movement in Pennsylvania."
+  -
+    title : "Institute on Disabilities Brochure"
+    linkhref: "IOD_consumer_brochure_2015.pdf"
+    linktextscreenreader: "the Institute on Disabilities Brochure"
+    description: "Describes the vision, mission and programs of the Institute on Disabilities. 2008 version"
+  -
+    title : "Criminal Justice Info Sheet"
+    linkhref: "CJ_1sheet.pdf"
+    linktextscreenreader: "the Criminal Justice Info Sheet"
+    description: "Brief description of the Institute programs which address criminal justice issues and people with disabilities."
+  -
+    title : "Independent Monitoring for Quality (IM4Q) Info Sheet"
+    linkhref: "IM4Q_1sheet.pdf"
+    linktextscreenreader: "the IM4Q program description"
+    description: "Brief description of this statewide program which interviews thousands of people who receive support through the Office of Developmental Programs in Pennsylvania."
+  -
+    title : "Independent Monitoring for Quality: A Statewide Summary"
+    linkhref: "IM4Q_report_2011-2012_statewide.pdf"
+    linktextscreenreader: "the IM4Q statewide summary report"
+    description: "Report presents the findings of face-to-face interviews during the past year with people with disabilities receiving services and supports through Intellectual disAbilities Services, Office of Developmental Programs, Pennsylvania Department of Human Services."
+  -
+    title : "Augmentative Communication and Empowerment Supports (ACES)"
+    linkhref: "ACES_flyer_2016.pdf"
+    linktextscreenreader: "the Augmentative Communication and Empowerment Supports (ACES) program"
+    description: "Brief description of annual program which invites augmentative communication users to Temple University's main campus for two weeks of device and empowerment training."
+  -
+    title : "Pennsylvania's Assistive Technology Lending Library"
+    linkhref: "ATLL_postcard_2014.pdf"
+    linktextscreenreader: "Pennsylvania's Assistive Technology Lending Library brochure"
+    description: "Brochure describing Pennsylvania's Assistive Technology Lending Library."
+  -
+    title : "People First: A Language Guide 2008"
+    linkhref: "PeopleFirst.pdf"
+    linktextscreenreader: "Guide to people first language"
+    description: "Guide to current and sensitive language to use when speaking with or about people with disabilities."
+  -
+    title : "Open Forum 2008"
+    linkhref: "OpenForum_2012.pdf"
+    linktextscreenreader: "Guide to making meetings accessible"
+    description: "Guide to making meetings and meeting sites accessible to people with disabilities."

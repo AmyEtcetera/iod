@@ -1,0 +1,9 @@
+<tbody class="search-table vert-align-top" id="searchTable">
+  {{#each pub-list-ship.itemArray}}
+  <tr class="gap-rows shadow-simple">
+    <td><p><strong>{{title}}</strong></p><p class="base-font-size">{{description}}</p></td>
+    <td><p class="base-font-size">Cost: <strong>{{price}}</strong></p><p><a href="{{linkhref}}" class="button no-underline" target="_blank"><span class="no-wrap">Add to cart</span> <span class="screen-reader-only">{{linktextscreenreader}}</span></a></p></td>
+  </tr>
+  {{/each}}
+</tbody>
+ <!-- The partial doesn't understand root, result is something like: http://localhost:8000/publications/assets/img/pub/iod_programs_1sheet.jpg -->

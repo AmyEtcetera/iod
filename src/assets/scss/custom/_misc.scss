@@ -122,6 +122,13 @@ tbody.search-table {
   border-radius: 2px;
 }
 
+.vert-align-top {
+  vertical-align: top;
+}
+
+.no-wrap {
+  white-space: nowrap;
+}
 // SEARCH, MAY BE A SEPARATE SCSS FILE...
 #___gcse_0 {
     width: 100%;
