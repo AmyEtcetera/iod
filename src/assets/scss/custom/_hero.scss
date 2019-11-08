@@ -89,6 +89,9 @@
 .feature-item-advocacy {
   @include feature-img("../img/feature/end-the-word-2-2019-1600x.jpg", "right bottom", 400px, 400px);
 }
+.feature-item-employment {
+  @include feature-img("../img/feature/crosswalk-1600x.jpg", "right top", 400px, 400px);
+}
 .feature-item-education {
   @include feature-img("../img/feature/aal-group-800x.jpg", "right top", 400px, 400px);
 }
