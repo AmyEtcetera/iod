@@ -10,6 +10,36 @@
   padding: 4px;
 }
 
+/* Mixin for typical photos or graphics in a content page: used in classes for float left or float right with a border, or float left with no border. Class for float right with border can be created if called for. */
+@mixin content-img-styles($border-color, $float: left, $margin-left:0, $margin-right: 1rem, $border-width:16px, $padding: 0) {
+  float: $float;
+  margin-right: $margin-right;
+  margin-left: $margin-left;
+  margin-bottom: .5rem;
+  border-width: $border-width;
+  border-style: solid;
+  border-color: $border-color;
+  padding: $padding;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+  @include breakpoint(small only) { // foundation breakpoint mixin
+    float: none;
+    display: block;
+    margin-right: 0;
+  }
+}
+
+.content-img-border {
+  @include content-img-styles(#ffffff);
+}
+.content-img-border-right {
+  @include content-img-styles(#ffffff, right, 1rem, 0);
+}
+.content-img-plain {
+  @include content-img-styles(none, left, 0, 1rem, 0);
+  border-radius: 2px;
+}
+
+
 /* SVG */
 @mixin icon-padding($top: 0, $right: 0, $bottom: 0, $left: 0) {
   padding-top: $top;
