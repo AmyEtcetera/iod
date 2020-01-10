@@ -98,6 +98,9 @@
 .feature-item-policy {
   @include feature-img("../img/feature/aleong-able-2014-DSC_0302-filt-bl-1600x.jpg", "right top", 400px, 400px);
 }
+.feature-item-arts {
+  @include feature-img("../img/feature/ribbons-1600.jpg", "right top", 400px, 400px);
+}
 .feature-item-home {
   @include feature-img("../img/feature/community-2019-hero-blocks-1600.jpg", "left top", 400px, 400px);
   background: rgb(165,165,165);
