@@ -1,3 +1,12 @@
+.nav-space {
+   height: 2.5rem;
+   clear: both;
+   //border: 2px solid green;
+   @include breakpoint(medium) {
+   height: 2.8rem;
+   }
+}
+
 .menu .active > a { // ??
     background: $dark-gray;
     border-radius: 2px;
